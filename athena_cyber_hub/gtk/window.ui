@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="AthenaWindow" parent="AdwApplicationWindow">
+    <property name="width-request">400</property>
+    <property name="default-width">990</property>
+    <property name="default-height">700</property>
+    <property name="title" translatable="yes">Athena OS Cyber Hub</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <property name="title-widget">
+              <object class="AdwViewSwitcherTitle">
+                <property name="stack">stack_main</property>
+                <property name="title" translatable="yes">Athena OS Cyber Hub</property>
+              </object>
+            </property>
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkButton" id="btn_apply">
+                <property name="label" translatable="yes">Apply Changes</property>
+                <property name="visible">False</property>
+                <style>
+                  <class name="suggested-action" />
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwToastOverlay" id="toasts">
+            <child>
+              <object class="AdwViewStack" id="stack_main">
+                <property name="vexpand">true</property>
+                <child>
+                  <object class="AdwViewStackPage" id="page_csp">
+                    <property name="name">platforms</property>
+                    <property name="title" translatable="yes">Cyber Security Platforms</property>
+                    <property name="icon-name">preferences-desktop-remote-desktop-symbolic</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="halign">fill</property>
+                        <child>
+                          <object class="AdwPreferencesPage">
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_platforms">
+                                <property name="title" translatable="yes">Platforms</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage" id="page_ach">
+                    <property name="name">labs</property>
+                    <property name="title" translatable="yes">Vulnerable Labs</property>
+                    <property name="icon-name">utilities-terminal-symbolic</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="halign">fill</property>
+                        <child>
+                          <object class="AdwPreferencesPage">
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_cve_containers">
+                                <property name="title" translatable="yes">CVE Labs</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_owasp_containers">
+                                <property name="title" translatable="yes">OWASP Labs</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_additional_containers">
+                                <property name="title" translatable="yes">Additional Labs</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage" id="page_cl">
+                    <property name="name">custom</property>
+                    <property name="title" translatable="yes">Cyber Labs</property>
+                    <property name="icon-name">applications-system-symbolic</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="halign">fill</property>
+                        <child>
+                          <object class="AdwPreferencesPage">
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_custom_containers">
+                                <property name="title" translatable="yes">Your Labs</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Help</attribute>
+        <attribute name="action">app.help</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About Cyber Hub</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>
