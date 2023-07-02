@@ -77,6 +77,8 @@ sudo ninja -C build install
 ```bash
 athena-cyber-hub
 ```
+## Contribution
+If you would like to have a new Cyber Security Platform or new CVE labs, please open an [issue](https://github.com/Athena-OS/athena-cyber-hub/issues/new) by reporting the project information to integrate.
 
 ## Credits
 Athena Cyber Hub is a forked project of [Vanilla Control Center](https://github.com/Vanilla-OS/vanilla-control-center) adapted for [Athena OS](https://github.com/Athena-OS). I would like to thank [@mirkobrombin](https://github.com/mirkobrombin) and [Vanilla OS team](https://github.com/orgs/Vanilla-OS/people) for the original project.
