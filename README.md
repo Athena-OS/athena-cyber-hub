@@ -82,3 +82,5 @@ If you would like to have a new Cyber Security Platform or new CVE labs, please 
 
 ## Credits
 Athena Cyber Hub is a forked project of [Vanilla Control Center](https://github.com/Vanilla-OS/vanilla-control-center) adapted for [Athena OS](https://github.com/Athena-OS). I would like to thank [@mirkobrombin](https://github.com/mirkobrombin) and [Vanilla OS team](https://github.com/orgs/Vanilla-OS/people) for the original project.
+
+Special Thanks to [@phith0n](https://github.com/phith0n) and its [Vulnhub](https://github.com/vulhub/vulhub) project that is the main source of CVE environments inside Athena Cyber Hub.
