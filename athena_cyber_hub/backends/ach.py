@@ -36,6 +36,11 @@ class Ach:
 
     def __init__(self):
         self.__binary = "/usr/bin/docker"
+        stat = subprocess.call(["systemctl", "is-active", "--quiet", "docker"])
+        if(stat != 0):  # if 0 (active), otherwise (stopped)"
+            self.docker_start = subprocess.run(["pkexec", "systemctl", "start", "docker"], capture_output=True)
+        else:
+            print("Docker daemon already running.")
         self.pulled_containers = subprocess.run(["pkexec", self.__binary, "ps", "-a", "--format", "'{{.Image}}'"], capture_output=True)
 
 
