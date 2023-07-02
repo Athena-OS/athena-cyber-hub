@@ -1,0 +1,474 @@
+# Romanian translations for athena-cyber-hub package.
+# Copyright (C) 2022 THE athena-cyber-hub'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Automatically generated, 2022.
+#
+# Matt C <matei.gurzu@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Panoul de control Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Nicio descripție"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Intrați în shell"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Creați subsistem"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Instalare"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afișează comenzi rapide"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Ieși"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Aplică schimbările"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Actualizări"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Ultima verificare de actualizări"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Niciodată"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Programarea acualizărilor"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Alege cât de des sistemul ar trebui să caute actualizări."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Lunar"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Actualizări inteligente"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"Dacă această opțiune este activată, sistemul nu se va actualiza atunci când "
+"este solicitat sau bateria este la un nivel scăzut."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Automatizări automate"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "Sistemul se va actualiza automat în fundal."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Subsistem"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Containere"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Aplicații instalate"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Despre panoul de control"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Steag"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Nume"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Subsistem Arch Linux"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Subsistem Fedora"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Subsistem Alpine"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "Subsistem openSUSE"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Subsistem Void Linux"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Modul apc dezactivat"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Executabilul apc nu a fost găsit"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Executabilul Distrobox nu a fost găsit"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Nu au putut fi încărcate containerele"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Containerul '{0}' nu a fost găsit"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Aplicația pornită: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Nu a putut fi pornită aplicația gestionată: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Organizare neacceptată"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "Fișierul configurației VSO nu a fost găsit la ()"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Shell deschis pentru container-ul '{}'"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Container-ul '{}' inițializat"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Codul de"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Documentația de"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Contribuitori"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Traducători"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Actualizarea inteligentă a fost modificată."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Nu s-a putut modifica setarea actualizării inteligente."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Setarea actualizării automate schimbată."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Nu s-a putut schimba setarea de actualizare automată"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Programul de actualizare schimbat."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} a ieșit cu o eroare."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} a ieșit."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} s-a lansat."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Instalare în curs…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Aceasta ar putea dura ceva timp."
+
+#~ msgid "Drivers"
+#~ msgstr "Drivere"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Se încarcă driverele…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Nu sunt drivere valabile"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nu sunt disponibile drivere suplimentare pentru sistemul dvs."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "Profiluri PRIME"
+
+#~ msgid "Active Profile"
+#~ msgstr "Profilul activ"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "GPU integrat"
+
+#~ msgid "Not detected"
+#~ msgstr "Nu a fost detectat"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "GPU discret"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hibrid"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr "Folosește GPU-ul integrat pentru orice si GPU-ul discret la cerere"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "MODULE_DEZACTIVATE"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "Modul PRIME dezactivat"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select nu a fost găsit"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select nu este acceptat pentru acest dispozitiv"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select nu este acceptat pentru acest setup"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Nume profil invalid"
+
+#~ msgid "integrated"
+#~ msgstr "integrat"
+
+#~ msgid "discrete"
+#~ msgstr "discret"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Se incarcă lista de dispozitive"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Listă dispozitive: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Driverul %s instalat: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Comandă instalare: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Apăsat"
+
+#~ msgid "Activated"
+#~ msgstr "Activat"
+
+#~ msgid "Driver selected"
+#~ msgstr "Driver selectat"
+
+#~ msgid "Installed"
+#~ msgstr "Instalat"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Driverul selectat: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Instalare necesară"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalare cerută: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Instalarea a eșuat."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Drivere noi instalate."
+
+#~ msgid "Installation finished."
+#~ msgstr "Instalarea s-a terminat."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Altă tranzacție rulează în acest moment sau sistemul trebuie repornit."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Profilul Prime schimbat."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Nu s-a putut schimba profilul Prime."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Se schimbă profilul PRIME…"
+
+#~ msgid "Close"
+#~ msgstr "Închide"
+
+#~ msgid "Restart Now"
+#~ msgstr "Repornește acum"
+
+#~ msgid "Restart Later"
+#~ msgstr "Repornește mai târziu"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Acest pas poate dura ceva timp, dar depinde de viteza conexiunii tale la "
+#~ "internet."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Nu există nicio aplicație containerizată pe sistemul tău."
+
+#~ msgid "Immutability"
+#~ msgstr "Imuabilitate"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Statusul imuabilității (sesiunea curentă)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Imuabilitatea este în modul Citire și Scriere (Read / Write)."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Restaurează la repornire"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "Alege dacă să restaurezi modul implicit după repornire."
+
+#~ msgid "Default Mode"
+#~ msgstr "Modul implicit"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Alege ce mod să utilizezi implicit."
+
+#~ msgid "Read Only"
+#~ msgstr "Numai citire"
+
+#~ msgid "Read and Write"
+#~ msgstr "Citire si Scriere"
+
+#~ msgid "Overlays"
+#~ msgstr "Suprapuneri"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Încă este neimplementat."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Niciun driver găsit."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Niciun driver găsit pentru dispozitivele tale sau ceva a dat greș."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Setarea status-ului de imuabilitate a eșuat."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Imuabilitate activată."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Imuabilitate dezactivată."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Mod persistent pornit."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Mod persistent oprit."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Setarea modului implicit a eșuat."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Modul implicit s-a schimbat la {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Numai citire"
+
+#~ msgid "Read-Write"
+#~ msgstr "Citire-Scriere"

@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2022-11-05 21:07+0000\n"
+"Last-Translator: Viktor <viktor@grigel.one>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.2\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Athena OS Ovládacie centrum"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Žiaden popis"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr ""
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Inštalácia"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Všeobecné"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Zobrazenie skratiek"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Ukončiť"
+
+#: athena_cyber_hub/gtk/window.ui:28
+#, fuzzy
+msgid "Apply Changes"
+msgstr "Použiť zmeny"
+
+#: athena_cyber_hub/gtk/window.ui:45
+#, fuzzy
+msgid "Updates"
+msgstr "Použiť zmeny"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Predvoľby"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:74
+#, fuzzy
+msgid "Smart Updates"
+msgstr "Použiť zmeny"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:86
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "Použiť zmeny"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Nainštalované aplikácie"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:143
+#, fuzzy
+msgid "_About Cyber Hub"
+msgstr "_O Ovládacom paneli"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/backends/apc.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/backends/apc.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/backends/apc.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/backends/apc.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "Subsystém"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr ""
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Prekladatelia"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr ""
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr ""
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} Ukončené s chybou."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} Ukončené."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} Spustené."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Prebiehajúca inštalácia..."
+
+#~ msgid "Drivers"
+#~ msgstr "Ovládače"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Načítavanie ovládačov..."
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Počkajte, kým sa načítajú dostupné ovládače."
+
+#, fuzzy
+#~ msgid "No Drivers Available"
+#~ msgstr "Nainštalovali sa nové ovládače."
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Nainštalovali sa nové ovládače."
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Ovládače"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Inštalácia"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Inštalácia"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Inštalácia zlyhala."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Inštalácia zlyhala."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nainštalovali sa nové ovládače."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Inštalácia zlyhala."
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Môže to chvíľu trvať v závislosti od rýchlosti vášho internetového "
+#~ "pripojenia."
+
+#~ msgid "Immutability"
+#~ msgstr "Nemennosť"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Stav nemennosti (aktuálna relácia)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Nemennosť je v režime čítania a zápisu."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Obnovenie po reštartovaní."
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "Vyberte, či sa má po reštarte systému obnoviť predvolený režim."
+
+#~ msgid "Default Mode"
+#~ msgstr "Predvolený režim"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Vyberte predvolený režim."
+
+#~ msgid "Read Only"
+#~ msgstr "Iba na čítanie"
+
+#~ msgid "Read and Write"
+#~ msgstr "Čítanie a zápis"
+
+#~ msgid "Overlays"
+#~ msgstr "Prekrytia"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Zatiaľ neimplementované."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Neboli nájdené žiadne ovládače."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Pre vaše zariadenia neboli nájdené žiadne ovládače alebo došlo k chybe."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Nepodarilo sa nastaviť definíciu nemennosti."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Nemennosť je povolená."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Nemennosť je zakázaná."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Perzistentný režim je povolený."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Perzistentný režim je zakázaný."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Nepodarilo sa nastaviť predvolený režim."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Predvolený režim bol zmenený na {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Iba na čítanie."
+
+#~ msgid "Read-Write"
+#~ msgstr "Čítanie-Zápis"

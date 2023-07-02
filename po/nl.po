@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Philip Goto <philip.goto@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Controlecentrum van Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Geen omschrijving"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Shell binnengaan"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Subsysteem aanmaken"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Installatie"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Algemeen"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Sneltoetsen tonen"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Sluiten"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Wijzigingen toepassen"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Updates"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Meest recente update-controle"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Nooit"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Update-rooster"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Kies hoe vaak het systeem zal controleren op updates."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Slimme updates"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"Het systeem zal niet bijwerken wanneer intensieve taken worden uitgevoerd of "
+"de accu bijna leeg is."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Automatische updates"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "Het systeem zal zichzelf op de achtergrond automatisch bijwerken."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Subsysteem"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Containers"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Geïnstalleerde apps"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Hulp"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Over Controlecentrum"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Vlag"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Naam"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Arch Linux-subsysteem"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Fedora-subsysteem"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Alpine-subsysteem"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE-subsysteem"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Void Linux-subsysteem"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Apx-module uitgeschakeld"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Apx-programmabestand niet gevonden"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Distrobox-programmabestand niet gevonden"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Kon containers niet verkrijgen"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Container ‘{0}’ niet gevonden"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "App wordt uitgevoerd: ‘{0}’"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Kon beheerde app niet starten: ‘{0}’"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Niet-ondersteunde omgeving"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "VSO-configuratiebestand niet gevonden op {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Opdrachtregel geopend voor container ‘{}’"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Container ‘{}’ geïnitialiseerd"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Code door"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Documentatie door"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Met bijdrage van"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Vertaling door"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Slimme updates aangepast."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Instelling voor slimme updates aanpassen mislukt."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Automatische updates aangepast."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Instelling voor automatische updates aanpassen mislukt"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Update-rooster aangepast."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} is gesloten met fouten."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} is gesloten."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} is gestart."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Bezig met installeren…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Dit kan even duren."
+
+#~ msgid "Drivers"
+#~ msgstr "Stuurprogramma's"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Stuurprogramma's laden…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "De beschikbare stuurprogramma's worden geladen."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Geen stuurprogramma's beschikbaar"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME-profielen"
+
+#~ msgid "Active Profile"
+#~ msgstr "Actief profiel"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Geïntegreerde GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Niet gedetecteerd"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Discrete GPU"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hybride"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Gebruik standaard de geïntegreerde GPU, gebruik de discrete GPU op "
+#~ "aanvraag"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "UITGESCHAKELDE_MODULES"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME-module uitgeschakeld"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select niet gevonden"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select niet ondersteund voor dit apparaat"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select wordt niet ondersteund in deze omgeving"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Ongeldige profielnaam"
+
+#~ msgid "integrated"
+#~ msgstr "geïntegreerd"
+
+#~ msgid "discrete"
+#~ msgstr "discreet"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Apparaatlijst opbouwen"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Apparaatlijst: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Stuurprogramma %s geïnstalleerd: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Installatieopdracht: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Gedrukt"
+
+#~ msgid "Activated"
+#~ msgstr "Geactiveerd"
+
+#~ msgid "Driver selected"
+#~ msgstr "Stuurprogramma geselecteerd"
+
+#~ msgid "Installed"
+#~ msgstr "Geïnstalleerd"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Geselecteerd stuurprogramma: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Installatie vereist"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Installatie verzocht: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Installatie mislukt."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nieuwe stuurprogramma's geïnstalleerd."
+
+#~ msgid "Installation finished."
+#~ msgstr "Installatie voltooid."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Er wordt al een andere handeling uitgevoerd, of het systeem moet opnieuw "
+#~ "worden opgestart."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "PRIME-profiel aangepast."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "PRIME-profiel aanpassen mislukt."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "PRIME-profiel aanpassen…"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#~ msgid "Restart Now"
+#~ msgstr "Nu herstarten"
+
+#~ msgid "Restart Later"
+#~ msgstr "Later herstarten"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Dit kan even duren, afhankelijk van de snelheid van uw internetverbinding."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Er zijn geen apps in een container geïnstalleerd op uw systeem."
+
+#~ msgid "Immutability"
+#~ msgstr "Onveranderlijkheid"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Onveranderlijkheidsstatus (huidige sessie)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr ""
+#~ "Onveranderlijkheid bevindt zich momenteel in de lees- en schrijfmodus."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Herstellen bij opnieuw opstarten"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Kies of u de standaardmodus wilt herstellen nadat het systeem opnieuw is "
+#~ "opgestart."
+
+#~ msgid "Default Mode"
+#~ msgstr "Standaard modus"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Kies welke modus standaard te gebruiken."
+
+#~ msgid "Read Only"
+#~ msgstr "Alleen lezen"
+
+#~ msgid "Read and Write"
+#~ msgstr "Lezen en schrijven"
+
+#~ msgid "Overlays"
+#~ msgstr "Overlays"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Nog niet geïmplementeerd."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Geen stuurprogramma's gevonden."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Geen stuurprogramma's gevonden voor uw apparaat of er ging iets fout."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Kan de onveranderlijkheidsstatus niet instellen."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Onveranderlijkheid ingeschakeld."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Onveranderlijkheid uitgeschakeld."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Aanhoudende modus ingeschakeld."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Aanhoudende modus uitgeschakeld."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Kon de standaardmodus niet instellen."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Standaard modus veranderd naar {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Alleen-lezen"
+
+#~ msgid "Read-Write"
+#~ msgstr "Lezen-schrijven"

@@ -1,0 +1,485 @@
+# Athena Cyber Hub Tamil translation
+# Copyright (C) 2023 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# K.B.Dharun Krishna <kbdharunkrishna@gmail.com>, 2023
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "விளக்கம் இல்லை"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "ஷெல்லை (ஓடு) உள்ளிடவும்"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "துணை அமைப்பை உருவாக்கவும்"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "நிறுவல்"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "பொது"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "குறுக்குவழிகளைக் காட்டு"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "வெளியேறு"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "புதுப்பிப்புகள்"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "விருப்பத்தேர்வுகள்"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "சமீபத்திய புதுப்பிப்பு சரிபார்ப்பு"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "புதுப்பிப்புகளை திட்டமிடுதல்"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr ""
+"புதுப்பிப்புகளை கணினி எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "வாராந்திர"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "மாதாந்திர"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "புத்திசாலி புதுப்பிப்புகள்"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "அதிக பயன்பாட்டில் இருந்தாலோ அல்லது குறைந்த மின்கலத்திலோ கணினி புதுப்பிக்கப்படாது."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "தானியங்கி புதுப்பிப்புகள்"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "பின்னணியில் கணினி தானாகவே புதுப்பிக்கப்படும்."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "துணை அமைப்பு"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "கொள்கலன்கள்"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_உதவி"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_கட்டுப்பாட்டு மையம் பற்றி"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "கொடி"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "பெயர்"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "ஆர்ச் லினக்ஸ் துணை அமைப்பு"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "ஃபெடோரா துணை அமைப்பு"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "ஆல்பைன் துணை அமைப்பு"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE துணை அமைப்பு"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "வாய்டு லினக்ஸ் துணை அமைப்பு"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Apx தொகுதி முடக்கப்பட்டுள்ளது"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Apx பைனரி கிடைக்கவில்லை"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Distrobox பைனரி கிடைக்கவில்லை"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "கொள்கலன்களைப் பெற முடியவில்லை"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "கொள்கலன் '{0}' கிடைக்கவில்லை"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "இயங்கும் பயன்பாடு: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "நிர்வகிக்கப்பட்ட பயன்பாட்டைத் தொடங்க முடியவில்லை: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "ஆதரிக்கப்படாத அமைவு"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "VSO கட்டமைப்பு கோப்பு {} இல் காணப்படவில்லை"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "'{}' கொள்கலனுக்காக ஷெல் (ஓடு) திறக்கப்பட்டது"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "கொள்கலன் '{}' துவக்கப்பட்டது"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "குறியீடு மூலம்"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "மூலம் ஆவணப்படுத்தல்"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "பங்களிப்பாளர்கள்"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "மொழிபெயர்ப்பாளர்கள்"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "புத்திசாலி புதுப்பிப்பு மாற்றப்பட்டுள்ளது."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "புத்திசாலி புதுப்பிப்பு அமைப்பை மாற்ற முடியவில்லை."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "தானியங்கி புதுப்பிப்பு அமைப்பு மாற்றப்பட்டது."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "தானியங்கு புதுப்பிப்பு அமைப்பை மாற்றுவதில் தோல்வி"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "புதுப்பிப்பு அட்டவணை மாற்றப்பட்டது."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} பிழையுடன் வெளியேறியது."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} வெளியேறியது."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} தொடங்கப்பட்டது."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "நிறுவல் நடந்து கொண்டிருக்கிறது…"
+
+#~ msgid "This may take a while."
+#~ msgstr "இதற்கு சிறிது நேரம் ஆகலாம்."
+
+#~ msgid "Drivers"
+#~ msgstr "இயக்கிகள்"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "இயக்கிகளை ஏற்றுகிறது…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "கிடைக்கக்கூடிய இயக்கிகள் ஏற்றப்படும் வரை காத்திருக்கவும்."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "இயக்கிகள் இல்லை"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "உங்கள் கணினிக்கு கூடுதல் இயக்கிகள் எதுவும் கிடைக்கவில்லை."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "பிரைம் சுயவிவரங்கள்"
+
+#~ msgid "Active Profile"
+#~ msgstr "செயலில் உள்ள சுயவிவரம்"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "ஒருங்கிணைந்த GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "கண்டுபிடிக்க படவில்லை"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "தனித்துவமான ஜி.பீ"
+
+#~ msgid "Hybrid"
+#~ msgstr "கலப்பு"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "எல்லாவற்றிற்கும் ஒருங்கிணைந்த GPU மற்றும் தேவைக்கேற்ப தனி GPU ஆகியவற்றைப் பயன்படுத்தவும்"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "முடக்கப்பட்ட_தொகுதிகள்"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME தொகுதி முடக்கப்பட்டது"
+
+#~ msgid "prime-select not found"
+#~ msgstr "பிரைம்-செலக்ட் காணப்படவில்லை"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "பிரைம்-செலக்ட் இந்தச் சாதனத்திற்கு ஆதரிக்கப்படவில்லை"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "இந்த அமைப்பிற்கு prime-select ஆதரிக்கப்படவில்லை"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "தவறான சுயவிவரப் பெயர்"
+
+#~ msgid "integrated"
+#~ msgstr "ஒருங்கிணைக்கப்பட்டது"
+
+#~ msgid "discrete"
+#~ msgstr "தனித்தனி"
+
+#~ msgid "Getting devices list"
+#~ msgstr "சாதனங்களின் பட்டியலைப் பெறுகிறது"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "சாதனங்களின் பட்டியல்: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "இயக்கி %s நிறுவப்பட்டது: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "நிறுவல் கட்டளை: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "சொடுக்கப்பட்டது"
+
+#~ msgid "Activated"
+#~ msgstr "செயல்படுத்தப்பட்டது"
+
+#~ msgid "Driver selected"
+#~ msgstr "இயக்கி தேர்ந்தெடுக்கப்பட்டது"
+
+#~ msgid "Installed"
+#~ msgstr "நிறுவப்பட்டது"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "தேர்ந்தெடுக்கப்பட்ட இயக்கி: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "நிறுவல் தேவை"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "நிறுவல் கோரப்பட்டது: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "நிறுவல் தோல்வி அடைந்தது."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "புதிய இயக்கிகள் நிறுவப்பட்டுள்ளன."
+
+#~ msgid "Installation finished."
+#~ msgstr "நிறுவல் முடிந்தது."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "மற்றொரு பரிவர்த்தனை இயங்குகிறது அல்லது கணினியை மறுதொடக்கம் செய்ய வேண்டும்."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "பிரைம் சுயவிவரம் மாற்றப்பட்டது."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "பிரைம் சுயவிவரத்தை மாற்றுவதில் தோல்வி."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "PRIME சுயவிவரத்தை மாற்றுகிறது…"
+
+#~ msgid "_Sub System"
+#~ msgstr "_துணை அமைப்பு"
+
+#, fuzzy
+#~ msgid "_Athena OS Cyber Hub"
+#~ msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
+
+#~ msgid "prime module disabled"
+#~ msgstr "பிரைம் தொகுதி முடக்கப்பட்டது"
+
+#~ msgid "Close"
+#~ msgstr "மூடுங்கள்"
+
+#~ msgid "Restart Now"
+#~ msgstr "இப்போது மீண்டும் தொடங்கவும்"
+
+#~ msgid "Restart Later"
+#~ msgstr "பின்னர் மீண்டும் தொடங்கவும்"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "உங்கள் இணைய இணைப்பு வேகத்தின் அடிப்படையில் இதற்கு சிறிது நேரம் ஆகலாம்."
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் "
+#~ "கணினி புதுப்பிக்கப்படாது."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "உங்கள் கணினியில் கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் எதுவும் நிறுவப்படவில்லை."
+
+#~ msgid "Immutability"
+#~ msgstr "மாறாத தன்மை"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "மாற்றமின்மை நிலை (தற்போதைய அமர்வு)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "மாறாத தன்மை தற்போது படிக்க மற்றும் எழுதும் பயன்முறையில் உள்ளது."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "மறுதொடக்கத்தில் மீட்டமைக்கவும்"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "கணினி மறுதொடக்கத்திற்குப் பிறகு இயல்புநிலை பயன்முறையை மீட்டமைக்க வேண்டுமா என்பதைத் "
+#~ "தேர்ந்தெடுக்கவும்."
+
+#~ msgid "Default Mode"
+#~ msgstr "இயல்புநிலை பயன்முறை"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "முன்னிருப்பாக எந்த பயன்முறையைப் பயன்படுத்த வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
+
+#~ msgid "Read Only"
+#~ msgstr "படிக்க மட்டும்"
+
+#~ msgid "Read and Write"
+#~ msgstr "படிக்கவும் மற்றும் எழுதவும்"
+
+#~ msgid "Overlays"
+#~ msgstr "மேலடுக்குகள்"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "இன்னும் செயல்படுத்தப்படவில்லை."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "இயக்கிகள் எதுவும் கிடைக்கவில்லை."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "உங்கள் சாதனங்களுக்கு இயக்கிகள் எதுவும் கிடைக்கவில்லை அல்லது ஒரு பிழை ஏற்பட்டது."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "மாறாத நிலையை அமைக்கத் தவறியது."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "மாறாத தன்மை இயக்கப்பட்டது."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "மாறாத தன்மை முடக்கப்பட்டது."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "நிரந்தர பயன்முறை இயக்கப்பட்டது."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "இயல்புநிலை பயன்முறையை அமைப்பதில் தோல்வி."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "இயல்புநிலை பயன்முறை {}க்கு மாற்றப்பட்டது."
+
+#~ msgid "Read-Only"
+#~ msgstr "படிக்க-மட்டும்"
+
+#~ msgid "Read-Write"
+#~ msgstr "படிக்க-எழுத"

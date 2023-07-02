@@ -1,0 +1,395 @@
+# Vietnamese translations for athena-cyber-hub package.
+# Copyright (C) 2022 THE athena-cyber-hub'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2022-11-09 04:10+0000\n"
+"Last-Translator: Nguyễn Phú Trọng <minhhoang9105@gmail.com>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.2\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Trung Tâm Điều Khiển hệ điều hành Athena"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Không có thông tin mô tả"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr ""
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Cài đặt"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Chung"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Hiện các Phím Tắt"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Thoát"
+
+#: athena_cyber_hub/gtk/window.ui:28
+#, fuzzy
+msgid "Apply Changes"
+msgstr "Áp dụng các thay đổi"
+
+#: athena_cyber_hub/gtk/window.ui:45
+#, fuzzy
+msgid "Updates"
+msgstr "Áp dụng các thay đổi"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Các tùy chọn ưu tiên"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:74
+#, fuzzy
+msgid "Smart Updates"
+msgstr "Áp dụng các thay đổi"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:86
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "Áp dụng các thay đổi"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Các ứng dụng đã được cài đặt"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:143
+#, fuzzy
+msgid "_About Cyber Hub"
+msgstr "Về bảng điều khiển"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/backends/apc.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/backends/apc.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/backends/apc.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/backends/apc.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "Hệ thống phụ"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr ""
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Phiên dịch viên"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr ""
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr ""
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr ""
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} Đã thoát với Lỗi."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} Đã thoát ra."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} Đã kích hoạt."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Quá trình cài đặt đang tiến hành…"
+
+#~ msgid "Drivers"
+#~ msgstr "Drivers"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Đang chạy các driver…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Xin chờ trong lúc các drivers có sẵn đang được chạy."
+
+#, fuzzy
+#~ msgid "No Drivers Available"
+#~ msgstr "Các driver mới đã được cài đặt."
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Các driver mới đã được cài đặt."
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Drivers"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Cài đặt"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Cài đặt thất bại."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Cài đặt thất bại."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Các driver mới đã được cài đặt."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Cài đặt thất bại."
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Điều này có thể mất một lúc, phụ thuộc vào tốc độ kết nối internet của "
+#~ "bạn."
+
+#~ msgid "Immutability"
+#~ msgstr "Trạng thái không đổi"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Trạng thái không đổi (phiên làm việc giữ nguyên)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Trạng thái bất biến hiện tại đang ở chế độ Đọc và Viết."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Khôi phục khi Khởi động lại"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Chọn có khôi phục chế độ mặc định sau khi khởi động lại hệ thống hay "
+#~ "không."
+
+#~ msgid "Default Mode"
+#~ msgstr "Chế độ mặc định"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Chọn chế độ để sử dụng theo mặc định."
+
+#~ msgid "Read Only"
+#~ msgstr "Chỉ đọc"
+
+#~ msgid "Read and Write"
+#~ msgstr "Đọc và Viết"
+
+#~ msgid "Overlays"
+#~ msgstr "Các lớp che phủ"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Chưa được thực hiện."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Không tìm thấy bất kì driver nào."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Không tìm thấy bất kì driver nào cho các thiết bị của bạn hoặc đã có một "
+#~ "số lỗi xảy ra."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Không đặt được trạng thái không đổi."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Trạng thái không đổi được kích hoạt."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Trạng thái không đổi được vô hiệu hóa."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Chế độ Persistent được kích hoạt."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Chế độ Persistent được vô hiệu hóa."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Đặt chế độ Mặc định thất bại."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Chế độ mặc định đã thay đổi thành {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Chỉ đọc"
+
+#~ msgid "Read-Write"
+#~ msgstr "Đọc - Viết"

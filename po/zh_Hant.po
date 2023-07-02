@@ -1,0 +1,398 @@
+# Chinese translations for athena-cyber-hub package.
+# Copyright (C) 2022 THE athena-cyber-hub'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Automatically generated, 2022.
+#
+# lakejason0 <sunliyuan200402@outlook.com>, 2023.
+# Jen Kung-chih <Kaitul@outlook.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-28 19:27+0000\n"
+"Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"athena-os/cyber-hub/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16-rc\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Athena OS 控制中心"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "沒有描述"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "進入 shell"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "建立子系統"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "安裝"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "一般"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "顯示快速鍵"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "離開"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "套用變更"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "更新"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "偏好"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "上次更新檢查"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "從不"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "更新頻率"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "選擇系統檢查更新的頻率。"
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "每週"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "每月"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "智慧更新"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "當系統處於高負載或電池電量低時，系統將不會更新。"
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "自動更新"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "系統會自動在背景執行更新。"
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "子系統"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "容器"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "已安裝的應用程式"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "說明(_H)"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "關於控制中心(_A)"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "旗標"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "名稱"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Arch Linux 子系統"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Fedora 子系統"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Alpine 子系統"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE 子系統"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Void Linux 子系統"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "已停用 Apx 模組"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "找不到 Apx 二進位檔案"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "找不到 Distrobox 二進位檔案"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "無法取得容器"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "找不到容器「{0}」"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "正在執行應用程式：「{0}」"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "無法啟動受管理的應用程式：「{0}」"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "不支援的設定"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "找不到 VSO 設定檔：{}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "已為容器「{}」開啟 shell"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "已初始化容器「{}」"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "程式碼撰寫"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "文件撰寫"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "貢獻者"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "翻譯人員"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "智慧更新已變更。"
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "無法變更智慧更新設定。"
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "自動更新設定已變更。"
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "無法變更自動更新設定"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "更新排程已變更。"
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} 因錯誤結束。"
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} 已離開。"
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} 已啟動。"
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "正在安裝新的驅動程式…"
+
+#~ msgid "Drivers"
+#~ msgstr "驅動程式"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "載入驅動程式中…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "正在載入可用的驅動程式，請稍候。"
+
+#~ msgid "No Drivers Available"
+#~ msgstr "沒有可用的驅動程式"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "沒有額外的驅動程式可用於您的系統。"
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME 設定檔"
+
+#~ msgid "Active Profile"
+#~ msgstr "已啟用的設定檔"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "內建顯示卡"
+
+#~ msgid "Not detected"
+#~ msgstr "未偵測到"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "獨立顯示卡"
+
+#~ msgid "Hybrid"
+#~ msgstr "混合"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr "使用內建顯示卡，但可指定使用獨立顯示卡"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "已停用模組"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME 模組已停用"
+
+#~ msgid "prime-select not found"
+#~ msgstr "找不到 prime-select"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "此裝置不支援 prime-select"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "此設定不支援 prime-select"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "無效的設定檔名"
+
+#~ msgid "integrated"
+#~ msgstr "內建"
+
+#~ msgid "discrete"
+#~ msgstr "獨立"
+
+#~ msgid "Getting devices list"
+#~ msgstr "取得裝置清單"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "裝置清單：%s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "驅動程式 %s 已安裝：%s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "安裝命令：%s"
+
+#~ msgid "Clicked"
+#~ msgstr "已點選"
+
+#~ msgid "Activated"
+#~ msgstr "已啟用"
+
+#~ msgid "Driver selected"
+#~ msgstr "已選取驅動程式"
+
+#~ msgid "Installed"
+#~ msgstr "已安裝"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "已選取驅動程式：{}"
+
+#~ msgid "Installation needed"
+#~ msgstr "需要安裝"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "已請求安裝：{}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "安裝失敗。"
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "已安裝新的驅動程式。"
+
+#~ msgid "Installation finished."
+#~ msgstr "安裝完成。"
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "有另一項事務正在執行中，或是系統需要重新開機。"
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "PRIME 設定檔已變更。"
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "PRIME 設定檔變更失敗。"
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "正在切換 PRIME 設定檔…"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid "Restart Now"
+#~ msgstr "立即重啟"
+
+#~ msgid "Restart Later"
+#~ msgstr "稍後重啟"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "依照您的網路速度，這可能會花上一些時間。"

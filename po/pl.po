@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# gnu-ewm <gnu.ewm@protonmail.com>, 2023.
+# Kuba Bazan <kubabazan27@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-03-23 01:36+0000\n"
+"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Panel sterowania Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Brak opisu"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Wejdź do powłoki"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Stwórz podsystem"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Instalacja"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ogólne"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Pokaż skróty"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Wyjdź"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Zatwierdź zmiany"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Aktualizacje"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Ostatnie sprawdzenie dostępnych aktualizacji"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Nigdy"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Planowanie aktualizacji"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Wybierz, jak często system ma sprawdzać dostępność aktualizacji."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Tygodniowo"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Miesięcznie"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Inteligentne aktualizacje"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"System nie zaktualizuje się, jeśli jest intensywnie używany lub ma niski "
+"poziom naładowania baterii."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Automatyczne aktualizacje"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "System będzie aktualizował się automatycznie w tle."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Podsystem"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Kontenery"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Zainstalowane aplikacje"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Pomoc"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_O panelu sterowania"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Flaga"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Nazwa"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Podsystem Arch Linux"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Podsystem-Fedora"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Podsystem-Alpine"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "Podsystem-openSUSE"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Podsystem-Void Linux"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Moduł Apx wyłączony"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Nie odnaleziono binarnego Apx"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Nie znaleziono binariów Distroboxa"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Nie można uzyskać kontenerów"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Nie znaleziono kontenera '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Uruchomiona aplikacja: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Nie można uruchomić zarządzanej aplikacji: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Nieobsługiwana konfiguracja"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "Nie znaleziono pliku konfiguracyjnego VSO w {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Konsola Shell otwarta w kontenerze '{}'"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Inicjalizacja Kontenera '{}'"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Kod napisany przez"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Dokumentacja napisana przez"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Kontenery"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Tłumacze"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Nastąpiły zmiany w Smart Update."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Nie udało się zmienić ustawienia funkcji Smart Update."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Zmieniono ustawienie automatycznej aktualizacji."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Nie udało się zmienić ustawienia automatycznej aktualizacji"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Zmieniono harmonogram aktualizacji."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} zakończone z błędem."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} zakończone."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} uruchomione."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Instalowanie nowych sterowników…"
+
+#~ msgid "Drivers"
+#~ msgstr "Sterowniki"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Wczytuję sterowniki…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Proszę czekać na załadowanie dostępnych sterowników."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Brak nowych sterowników"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nie ma dostępnych dodatkowych sterowników dla twojego systemu."
+
+#, fuzzy
+#~ msgid "PRIME Profiles"
+#~ msgstr "Zmienianie Profilu Podstawowego…"
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Nowe sterowniki zainstalowane."
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Komenda instalacji: %s"
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Sterowniki"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Instalacja"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Instalacja"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nowe sterowniki zainstalowane."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Trwa inna transakcja lub system wymaga ponownego uruchomienia."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Profil Podstawowy został zmieniony."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Zmiana Profilu Podstawowego Nieudana."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Zmienianie Profilu Podstawowego…"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Może to chwilę potrwać, w zależności od szybkości połączenia "
+#~ "internetowego."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "W Twoim systemie nie ma zainstalowanych aplikacji kontenerowych."
+
+#~ msgid "Immutability"
+#~ msgstr "Niezmienność"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Status niezmienności (bieżąca sesja)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Niezmienność jest obecnie w trybie odczytu i zapisu."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Przywróć po ponownym uruchomieniu"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Wybierz, czy przywrócić tryb domyślny po ponownym uruchomieniu systemu."
+
+#~ msgid "Default Mode"
+#~ msgstr "Tryb domyślny"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Wybierz tryb, który ma być używany domyślnie."
+
+#~ msgid "Read Only"
+#~ msgstr "Tylko odczyt"
+
+#~ msgid "Read and Write"
+#~ msgstr "Odczyt i zapis"
+
+#~ msgid "Overlays"
+#~ msgstr "Nakładki"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Jeszcze niezaimplementowane."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Nie znaleziono sterowników."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Nie znaleziono sterowników dla Twojego urządzenia lub wystąpił błąd."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Nie udało się ustawić statusu niezmienności."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Niezmienność włączona."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Niezmienność wyłączona."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Tryb trwały włączony."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Tryb trwały wyłączony."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Nie udało się ustawić trybu domyślnego."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Tryb domyślny zmieniono na {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Tylko-oczyt"
+
+#~ msgid "Read-Write"
+#~ msgstr "Odczyt-zapis"

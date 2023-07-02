@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton.me>, 2023.
+# Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-26 01:05+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"athena-os/cyber-hub/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Central de Controle do Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Sem descrição"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Entrar no shell"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Criar sub-sistema"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Instalação"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Geral"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Exibir Atalhos"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Fechar"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Aplicar Alterações"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Atualizações"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Preferências"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Última Checagem de Atualizações"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Nunca"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Agendamento de Atualizações"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr ""
+"Escolha de quanto em quanto tempo o sistema verificará por atualizações."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Mensalmente"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Atualizações Inteligentes"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"O sistema não irá receber atualizações se estiver sobrecarregado ou se a "
+"bateria estiver baixa."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Atualizações Automáticas"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "O sistema se atualizará automaticamente em segundo plano."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Sub-sistema"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Contêineres"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Aplicações Instaladas"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Sobre o Centro de Controle"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Bandeira"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Nome"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Sub-sistema Arch Linux"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Sub-sistema Fedora"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Subsistema Alpine"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "Sub-sistema openSUSE"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Sub-sistema Void Linux"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Módulo Apx desabilitado"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Binário do Apx não encontrado"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Binário do Distrobox não encontrado"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Não foi possível obter os contêineres"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Contêiner '{0}' não encontrado"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Rodando aplicação: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Não foi possível iniciar a aplicação gerenciada: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Configuração não suportada"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "Arquivo de configuração VSO não encontrado em {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Shell aberto para o contêiner '{}'"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Contêiner '{}' inicializado"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Código por"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Documentação por"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Colaboradores"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Tradutores"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Atualização Inteligente Alterada."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Falha ao alterar as configurações das Atualizações Inteligentes."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Configuração da Atualização Inteligente modificada."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Falha ao alterar a configuração de Atualização Automática"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Agendamento de Atualização Alterado."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} Foi Encerrado Com Erro."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} Foi Encerrado."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} Iniciado."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Instalando novos Drivers…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Isso pode demorar um pouco."
+
+#~ msgid "Drivers"
+#~ msgstr "Drivers"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Carregando drivers…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Por favor aguarde enquanto os drivers disponíveis são carregados."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Nenhum Driver Disponível"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Não há drivers extras disponíveis para o seu sistema."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "Alterando Perfis PRIME"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Driver %s instalado: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Comando de instalação:%s"
+
+#~ msgid "Driver selected"
+#~ msgstr "Driver selecionado"
+
+#~ msgid "Installed"
+#~ msgstr "Instalado"
+
+#~ msgid "Installation needed"
+#~ msgstr "Instalação necessária"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalação requisitada: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Falha na instalação."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Novos Drivers Instalados."
+
+#~ msgid "Installation finished."
+#~ msgstr "Instalação finalizada."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Outra transação está em execução ou o sistema necessita ser reiniciado."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Perfil Prime Alterado."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Falha na Alteração do Perfil Prime."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Alterando Perfil PRIME…"
+
+#~ msgid "Active Profile"
+#~ msgstr "Perfil Ativo"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "GPU Integrada"
+
+#~ msgid "Not detected"
+#~ msgstr "Não detectado"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "GPU Discreta"
+
+#~ msgid "Hybrid"
+#~ msgstr "Híbrido"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr "Usar a GPU integrada para tudo e a GPU discreta sob demanda"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "Módulo PRIME desativado"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select não encontrado"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select não suportado para este dispositivo"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select não é suportado para esta configuração"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Nome de perfil inválido"
+
+#~ msgid "integrated"
+#~ msgstr "integrado"
+
+#~ msgid "discrete"
+#~ msgstr "discreta"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Obtendo lista de dispositivos"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Lista de dispositivos: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Clickado"
+
+#~ msgid "Activated"
+#~ msgstr "Ativado"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Driver selecionado: {}"
+
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Instalando novos Drivers…"
+
+#~ msgid "Close"
+#~ msgstr "Fechar"
+
+#~ msgid "Restart Now"
+#~ msgstr "Reiniciar Agora"
+
+#~ msgid "Restart Later"
+#~ msgstr "Reiniciar Depois"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Isso pode demorar um pouco, com base na velocidade da sua conexão com a "
+#~ "Internet."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Não há nenhuma aplicação em contêineres no seu sistema."
+
+#~ msgid "Immutability"
+#~ msgstr "Imutabilidade"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Status da Imutabilidade (sessão atual)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "A imutabilidade está atualmente no modo de Leitura e Gravação."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Restaurar na Reinicialização"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Escolha se deseja restaurar o modo padrão após a reinicialização do "
+#~ "sistema."
+
+#~ msgid "Default Mode"
+#~ msgstr "Modo Padrão"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Escolha qual modo usar por padrão."
+
+#~ msgid "Read Only"
+#~ msgstr "Somente Leitura"
+
+#~ msgid "Read and Write"
+#~ msgstr "Leitura e Gravação"
+
+#~ msgid "Overlays"
+#~ msgstr "Sobreposições"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Não implementado ainda."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Nenhum Driver Encontrado."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Nenhum driver encontrado para seus dispositivos ou um erro ocorreu."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Falha ao Definir Status de Imutabilidade."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Imutabilidade Habilitada."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Imutabilidade Desabilitada."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Modo Persistente Habilitado."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Modo Persistente Desabilitado."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Falha ao Definir o Modo Padrão."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Modo Padrão Alterado para {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Somente Leitura"
+
+#~ msgid "Read-Write"
+#~ msgstr "Leitura-Gravação"

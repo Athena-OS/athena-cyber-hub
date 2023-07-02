@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Serhii Chebanenko <4e6anenk0@gmail.com>, 2023.
+# Dan <denqwerta@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-04-30 12:48+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Центр керування Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Без опису"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Відкрити термінал"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Створити підсистему"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Встановлення"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Загальні"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показати ярлики"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Вийти"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Застосувати зміни"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Оновлення"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Перевірка останнього оновлення"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Ніколи"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Розклад оновлень"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Виберіть, як часто система має перевіряти наявність оновлень."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Щотижня"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Щомісяця"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Інтелектуальні оновлення"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"Система не буде оновлюватися, якщо вона активно використовується або має "
+"низький заряд акумулятора."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Автоматичні оновлення"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "Система буде автоматично оновлюватися у фоновому режимі."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Підсистема"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Контейнери"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Встановлені програми"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Потрібна допомога?"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Про центр керування"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Прапорець"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Ім'я"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Підсистема Arch Linux"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Підсистема Fedora"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Підсистема Alpine"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "Підсистема openSUSE"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Підсистема Void Linux"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Модуль Apx вимкнено"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Двійковий файл Apx не знайдено"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Двійковий файл Distrobox не знайдено"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Не вдалося отримати контейнери"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Контейнер '{0}' не знайдено"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Запущена програма: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Не вдалося запустити керовану програму: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Непідтримуване налаштування"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "Файл конфігурації VSO не знайдено за адресою {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Відкрита оболонка для контейнеру '{}'"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Контейнер '{}' успішно ініціалізовано"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Програмний код"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Документація"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "При сприянні"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Перекладачі"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Був змінений параметр інтелектуального оновлення."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Не вдалося змінити параметр інтелектуального оновлення."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Був змінений параметр автоматичного оновлення."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Не вдалося змінити параметр автоматичного оновлення."
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Розклад оновлень змінено."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} завершено з помилкою."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} завершено."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} запущено."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Виконується встановлення…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Це може зайняти деякий час."
+
+#~ msgid "Drivers"
+#~ msgstr "Драйвери"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Завантаження драйверів…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Драйвери відсутні"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Немає додаткових драйверів, доступних для вашої системи."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME профілі"
+
+#~ msgid "Active Profile"
+#~ msgstr "Активний профіль"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Вбудований графічний процесор"
+
+#~ msgid "Not detected"
+#~ msgstr "Не виявлено"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Дискретний графічний процесор"
+
+#~ msgid "Hybrid"
+#~ msgstr "Гібрид"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Драйвер %s встановлено: %s"
+
+#~ msgid "Driver selected"
+#~ msgstr "Вибрано драйвер"
+
+#~ msgid "Installed"
+#~ msgstr "Встановлено"
+
+#~ msgid "Installation needed"
+#~ msgstr "Необхідне встановлення"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Запит на встановлення: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Встановлення зазнало невдачі."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Встановлені нові драйвери."
+
+#~ msgid "Installation finished."
+#~ msgstr "Встановлення завершено."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Виконується інша транзакція або систему потрібно перезапустити."
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Використовуйте вбудований графічний процесор для всього і дискретний "
+#~ "графічний процесор на вимогу"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "ВИМКНЕНІ_МОДУЛІ"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "Модуль PRIME вимкнено"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select не знайдено"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select не підтримується для цього пристрою"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select не підтримується для цього налаштування"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Некоректна назва профілю"
+
+#~ msgid "integrated"
+#~ msgstr "вбудована"
+
+#~ msgid "discrete"
+#~ msgstr "дискретна"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Отримання списку пристроїв"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Список пристроїв: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Команда встановлення: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Натиснув"
+
+#~ msgid "Activated"
+#~ msgstr "Активовано"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Вибраний драйвер: {}"
+
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Виконується встановлення нових драйверів…"
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Профіль Prime змінено."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Зміна профілю Prime не вдалась."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Зміна профілю PRIME…"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Це може зайняти деякий час залежно від швидкості вашого інтернет-"
+#~ "з’єднання."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "У вашій системі не встановлено жодних контейнерних застосунків."
+
+#~ msgid "Immutability"
+#~ msgstr "Незмінність"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Статус незмінності (поточний сеанс)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Незмінність зараз у режимі читання та запису."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Відновити після перезавантаження"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Виберіть, чи відновлювати стандартний режим після перезавантаження "
+#~ "системи."
+
+#~ msgid "Default Mode"
+#~ msgstr "Стандартний режим"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Виберіть, який режим використовувати як стандартний."
+
+#~ msgid "Read Only"
+#~ msgstr "Лише для читання"
+
+#~ msgid "Read and Write"
+#~ msgstr "Читання та запис"
+
+#~ msgid "Overlays"
+#~ msgstr "Оверлеї"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Ще не реалізовано."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Драйверів не знайдено."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Для ваших пристроїв не знайдено драйверів або сталася помилка."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Не вдалося встановити статус незмінності."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Незмінність увімкнена."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Незмінність вимкнена."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Persistent Mode увімкнено."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Persistent Mode вимкнено."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Не вдалося змінити стандартний режим."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Стандартний режим змінено на: {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Читання"
+
+#~ msgid "Read-Write"
+#~ msgstr "Читання-Запис"

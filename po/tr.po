@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Veysel Erden <veyselerden@outlook.com>, 2023.
+# Murattut <tutmurattut@outlook.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-03-26 04:29+0000\n"
+"Last-Translator: Murattut <tutmurattut@outlook.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Athena OS Kontrol Merkezi"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Açıklama yok"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Kabuk çalıştır"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Alt sistem oluştur"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Kurulum"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Değişiklikleri uygula"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Güncellemeler"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Son güncelleme kontrolü"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "hiçbir zaman"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Güncelleme planla"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Sistemin güncellemeleri ne sıklıkta kontrol etmesi gerektiğini seçin."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Haftalık"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Aylık"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Akıllı Güncellemeler"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "Sistem yoğun kullanımdaysa veya pili zayıfsa güncelleme yapmayacaktır."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Otomatik güncellemeler"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "Sistem arka planda otomatik olarak kendini güncelleyecektir."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Alt Sistem"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Konteynerler"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Yüklü Uygulamalar"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Yardım"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Kontrol Paneli Hakkında"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Bayrak"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Ad"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Arch Linux Alt Sistemi"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Fedora Alt Sistemi"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Alpine Alt Sistemi"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE Alt Sistemi"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Void Linux Alt Sistemi"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Apx modülü devre dışı"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Apx ikili dosyası bulunamadı"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Distrobox ikili dosyası bulunamadı"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Konteynerler alınamıyor"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Konteyner '{0}' bulunamadı"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Çalışan uygulama: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Yönetilen uygulama başlatılamıyor: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Desteklenmeyen kurulum"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "VSO Config dosyası {} adresinde bulunamadı"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "'{}' kapsayıcısı için kabuk açıldı"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "'{}' kapsayıcısı başlatıldı"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Kodlayan(lar)"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Dokümante eden(ler)"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Yardım edenler"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Çevirmenler"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Akıllı güncelleme değiştirildi."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Akıllı Güncelleme ayarı değiştirilemedi."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Otomatik güncelleme ayarı değiştirildi."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Otomatik Güncelleme ayarını değiştirme işlemi başarısız oldu"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Güncelleme takvimi değiştirildi."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} Hatayla Çıkıldı."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} Çıkıldı."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} Başlatıldı."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Yeni sürücüler kuruluyor…"
+
+#~ msgid "Drivers"
+#~ msgstr "Sürücüler"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Sürücüler yükleniyor…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Mevcut sürücüler yüklenirken lütfen bekleyin."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Herhangi sürücü bulunamadı"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Sisteminiz için fazladan sürücü yok"
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Yeni Sürücüler Yüklendi."
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Sürücüler"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Kurulum"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Kurulum"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Kurulum başarısız."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Kurulum başarısız."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Yeni Sürücüler Yüklendi."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Kurulum başarısız."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Başka bir işlem çalışıyor veya sistemin yeniden başlatılması gerekiyor."
+
+#~ msgid "Close"
+#~ msgstr "Kapat"
+
+#~ msgid "Restart Now"
+#~ msgstr "Şimdi Yeniden Başlat"
+
+#~ msgid "Restart Later"
+#~ msgstr "Sonra Yeniden Başlat"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "Bu, internet bağlantı hızınıza bağlı olarak biraz zaman alabilir."
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Sisteminizde konteynerleştirilmiş uygulama yok."
+
+#~ msgid "Immutability"
+#~ msgstr "Değişmezlik"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Değişmezlik Durumu (mevcut oturum)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Değişmezlik şu anda Okuma ve Yazma modunda."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Yeniden Başlatmada Geri Yükle"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Sistem yeniden başlatıldıktan sonra varsayılan modun geri yüklenip "
+#~ "yüklenmeyeceğinizi seçin."
+
+#~ msgid "Default Mode"
+#~ msgstr "Varsayılan mod"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Varsayılan olarak hangi modun kullanılacağınızı seçin."
+
+#~ msgid "Read Only"
+#~ msgstr "Salt okunur"
+
+#~ msgid "Read and Write"
+#~ msgstr "Okuma ve yazma"
+
+#~ msgid "Overlays"
+#~ msgstr "Katmanlar"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Henüz Uygulanmadı."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Sürücü Bulunamadı."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Cihazlarınız için sürücü bulunamadı veya bir hata oluştu."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Değişmezlik Durumu Ayarlanamadı."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Değişmezlik Etkin."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Değişmezlik Devre Dışı."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Kalıcı Mod Etkinleştirildi."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Kalıcı Mod Devre Dışı."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Varsayılan Mod Ayarlanamadı."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Varsayılan Mod {} Olarak Değiştirildi."
+
+#~ msgid "Read-Only"
+#~ msgstr "Sadece-okuma"
+
+#~ msgid "Read-Write"
+#~ msgstr "Okuma-Yazma"

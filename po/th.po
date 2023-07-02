@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "ศูนย์ควบคุม Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "ไม่มีคำอธิบาย"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr ""
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "การติดตั้ง"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "ทั่วไป"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "แสดงทางลัด"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "ออก"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "ใช้การเปลี่ยนแปลง"
+
+#: athena_cyber_hub/gtk/window.ui:45
+#, fuzzy
+msgid "Updates"
+msgstr "อัปเดต"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "การตั้งค่า"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "ตรวจสอบอัปเดตล่าสุด"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "ไม่เคย"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "กำหนดการอัปเดต"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "เลือกความถี่ที่ระบบจะทำการตรวจสอบอัปเดต"
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "ทุกสัปดาห์"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "ทุกเดือน"
+
+#: athena_cyber_hub/gtk/window.ui:74
+#, fuzzy
+msgid "Smart Updates"
+msgstr "SmartUpdate"
+
+#: athena_cyber_hub/gtk/window.ui:75
+#, fuzzy
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "เมื่อเปิดอยู่ ระบบจะไม่อัปเดตหากระบบทำงานหนักหรือแบตเตอรี่ต่ำ"
+
+#: athena_cyber_hub/gtk/window.ui:86
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "เปลี่ยน SmartUpdate แล้ว"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/gtk/window.ui:115
+#, fuzzy
+msgid "Containers"
+msgstr "ไม่มีแอปที่อยู่ในคอนเทนเนอร์"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "แอปพลิเคชันที่ติดตั้งแล้ว"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr ""
+
+#: athena_cyber_hub/gtk/window.ui:143
+#, fuzzy
+msgid "_About Cyber Hub"
+msgstr "_เกี่ยวกับแผงควบคุม"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/backends/apc.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/backends/apc.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/backends/apc.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/backends/apc.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "ระบบย่อย"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr ""
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr ""
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "นักแปล"
+
+#: athena_cyber_hub/window.py:96
+#, fuzzy
+msgid "Smart Update Changed."
+msgstr "เปลี่ยน SmartUpdate แล้ว"
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr ""
+
+#: athena_cyber_hub/window.py:103
+#, fuzzy
+msgid "Automatic Update setting changed."
+msgstr "เปลี่ยน SmartUpdate แล้ว"
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr ""
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "เปลี่ยนกำหนดการอัปเดตแล้ว"
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} ออกโดยมีข้อผิดพลาด"
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} ออกแล้ว"
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} เปิดแล้ว"
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "กำลังดำเนินการติดตั้ง…"
+
+#~ msgid "Drivers"
+#~ msgstr "ไดรเวอร์"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "กำลังโหลดไดรเวอร์…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "โปรดรอสักครู่ขณะกำลังโหลดไดรเวอร์ที่มีอยู่"
+
+#, fuzzy
+#~ msgid "No Drivers Available"
+#~ msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "ไม่มีไดรเวอร์เพิ่มเติมพร้อมใช้งานสำหรับระบบของคุณ"
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "ไดรเวอร์"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "การติดตั้ง"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "การติดตั้ง"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "การติดตั้งผิดพลาด"
+
+#~ msgid "Installation Failed."
+#~ msgstr "การติดตั้งผิดพลาด"
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "การติดตั้งผิดพลาด"
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "กำลังมีการทำรายการอื่นอยู่ หรือจำเป็นต้องเริ่มระบบใหม่"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "อาจใช้เวลาสักครู่ขึ้นอยู่กับความเร็วการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "ไม่มีแอปที่อยู่ในคอนเทนเนอร์ติดตั้งอยู่บนระบบของคุณ"
+
+#~ msgid "Immutability"
+#~ msgstr "ความไม่เปลี่ยนรูป"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "สถานะความไม่เปลี่ยนรูป (เซสชันปัจจุบัน)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "ขณะนี้ความไม่เปลี่ยนรูปอยู่ในโหมดอ่านและเขียน"
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "กู้คืนเมื่อรีบูต"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "เลือกว่าจะคืนค่าโหมดเริ่มต้นหลังจากรีบูตระบบหรือไม่"
+
+#~ msgid "Default Mode"
+#~ msgstr "โหมดเริ่มต้น"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "เลือกโหมดที่จะใช้เป็นค่าเริ่มต้น"
+
+#~ msgid "Read Only"
+#~ msgstr "อ่านเท่านั้น"
+
+#~ msgid "Read and Write"
+#~ msgstr "อ่านและเขียน"
+
+#~ msgid "Overlays"
+#~ msgstr "โอเวอร์เลย์"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "ยังไม่ได้ดำเนินการ"
+
+#~ msgid "No Drivers Found."
+#~ msgstr "ไม่พบไดรเวอร์"
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "ไม่พบไดรเวอร์สำหรับอุปกรณ์ของคุณ หรือมีข้อผิดพลาดเกิดขึ้น"
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "ไม่สามารถตั้งค่าสถานะความไม่เปลี่ยนรูป"
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "ความไม่เปลี่ยนรูปถูกเปิดการใช้งาน"
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "ความไม่เปลี่ยนรูปถูกปิดใช้งาน"
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "เปิดใช้งานโหมดถาวร"
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "ปิดใช้งานโหมดถาวร"
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "ไม่สามารถตั้งค่าโหมดเริ่มต้น"
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "โหมดเริ่มต้นเปลี่ยนเป็น {}"
+
+#~ msgid "Read-Only"
+#~ msgstr "อ่านเท่านั้น"
+
+#~ msgid "Read-Write"
+#~ msgstr "อ่านเขียน"
