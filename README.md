@@ -9,6 +9,35 @@
     <img src="data/screenshot.png">
 </div>
 
+## Usage
+**Athena OS Cyber Hub (ACH)** provides three sections:
+* Cyber Platforms
+* Vulnerable Labs
+* Cyber Labs
+
+#### Cyber Platforms
+It offers a set of **Cyber Security platforms** used for several purposes (i.e., defensive), as [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) and [GreenBone](https://github.com/greenbone/) tools.
+
+#### Vulnerable Labs
+It contains several **CVE laboratories** from [Vulhub](https://github.com/vulhub/vulhub) where you can train on **real CVEs** to exploit technologies and services. Run your favourite vulnerable environment and get your CVE!
+
+#### Cyber Labs
+Set your **custom containers** and manage them in a centralized manner! When ACH is run for the first time, it will create `~/.config/athena-cyber-hub/cyberlab.toml` configuration file. Edit it by inserting the required information about your container, and then run ACH. Your containers will be collected in Cyber Labs section.
+
+Example configuration file:
+```toml
+[[environment]]
+id = "vulhub/activemq"
+name = "ActiveHello"
+path_docker = "/usr/share/athena-platform-center/vulhub/activemq/CVE-2015-5254/docker-compose.yml"
+path_readme = "/usr/share/athena-platform-center/vulhub/activemq/CVE-2015-5254/README.md"
+
+[[environment]]
+id = "well-hub/yourlab"
+name = "Container 2"
+path_docker = "/path/to/docker-compose.yml"
+path_readme = "/path/to/README.md"
+```
 
 ## Build from source
 ### Dependencies
