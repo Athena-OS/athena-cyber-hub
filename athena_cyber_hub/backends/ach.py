@@ -37,11 +37,12 @@ class Ach:
     def __init__(self):
         self.__binary = "/usr/bin/docker"
         stat = subprocess.call(["systemctl", "is-active", "--quiet", "docker"])
-        if(stat != 0):  # if 0 (active), otherwise (stopped)"
-            self.docker_start = subprocess.run(["pkexec", "systemctl", "start", "docker"], capture_output=True)
-        else:
-            print("Docker daemon already running.")
-        self.pulled_containers = subprocess.run(["pkexec", self.__binary, "ps", "-a", "--format", "'{{.Image}}'"], capture_output=True)
+        #if(stat != 0):  # if 0 (active), otherwise (stopped)"
+        #    self.docker_start = subprocess.run(["pkexec", "systemctl", "start", "docker"], capture_output=True)
+        #else:
+        #    print("Docker daemon already running.")
+        #self.pulled_containers = subprocess.run(["pkexec", self.__binary, "ps", "-a", "--format", "'{{.Image}}'"], capture_output=True)
+        self.pulled_containers = subprocess.run(["pkexec", "bash", "-c", "systemctl start docker; docker ps -a --format '{{.Image}}'"], capture_output=True)
 
 
     config_directory = os.environ['HOME']+"/.config/athena-cyber-hub"
@@ -67,34 +68,31 @@ class Ach:
         item['name'] = (item['name']).replace('>',"&gt;")
         
         if item['cve']:
-            if item['cve'][0]:
-                img_name = (item['cve'][0]+"-"+re.findall('(.+)(?=/)', item['path'])[0]).lower()
-                alias = img_name
-                __managed_containers[alias] = {
-                    _("Name"): _(item['name']),
-                    _("App"): _(item['app']),
-                    _("CVE"): _(item['cve'][0]),
-                    _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
-                    _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
-                    _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
-                    _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
-                }
-            else:
-                img_name = (subprocess.run(["grep", "-h", "-m", "1", "-oP", '(?<=image: ).*|(?<=FROM ).*', "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/docker-compose.yml", "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/Dockerfile"], capture_output=True, text=True)).stdout.replace(' ','').replace('\n','') # Getting only the first occurrence of "image:" because we need only the first one for checking if the container is running or not, also for cases where docker-compose.yml are more image names
+            img_name = (item['cve'][0]+"-"+re.findall('(.+)(?=/)', item['path'])[0]).lower()
+            alias = img_name
+            __managed_containers[alias] = {
+                _("Name"): _(item['name']),
+                _("App"): _(item['app']),
+                _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
+                _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
+                _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
+                _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
+            }
+        else:
+            img_name = (subprocess.run(["grep", "-h", "-m", "1", "-oP", '(?<=image: ).*|(?<=FROM ).*', "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/docker-compose.yml", "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/Dockerfile"], capture_output=True, text=True)).stdout.replace(' ','').replace('\n','') # Getting only the first occurrence of "image:" because we need only the first one for checking if the container is running or not, also for cases where docker-compose.yml are more image names
 
-                if os.path.isfile("/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/docker-compose.yml") and os.path.isfile("/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/Dockerfile"):
-                    img_name = (subprocess.run(["grep", "-h", "-m", "1", "-oP", '(?<=FROM ).*', "/usr/share/athena-cyber-hub/vulhub/"+item["path"]+"/Dockerfile"], capture_output=True, text=True)).stdout.replace(' ','').replace('\n','') # If the folder has both docker-compose.yml and Dockerfile, take the image name from Dockerfile
+            if os.path.isfile("/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/docker-compose.yml") and os.path.isfile("/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/Dockerfile"):
+                img_name = (subprocess.run(["grep", "-h", "-m", "1", "-oP", '(?<=FROM ).*', "/usr/share/athena-cyber-hub/vulhub/"+item["path"]+"/Dockerfile"], capture_output=True, text=True)).stdout.replace(' ','').replace('\n','') # If the folder has both docker-compose.yml and Dockerfile, take the image name from Dockerfile
 
-                alias = img_name
-                __additional_containers[alias] = {
-                    _("Name"): _(item['name']),
-                    _("App"): _(item['app']),
-                    _("CVE"): _(item['cve'][0]),
-                    _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
-                    _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
-                    _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
-                    _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
-                }
+            alias = img_name
+            __additional_containers[alias] = {
+                _("Name"): _(item['name']),
+                _("App"): _(item['app']),
+                _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
+                _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
+                _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
+                _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
+            }
         
 
 #######################################################
@@ -256,7 +254,7 @@ class Ach:
             _container = {
                 "Name": container["Name"],
                 "Status": 1,
-                "Alias": container["CVE"], # It will show CVE as subtitle on the GTK window
+                "Alias": (re.findall('cve-\d{4}-\d{4,7}',alias)[0]).replace('cve','CVE'), # It will show CVE as subtitle on the GTK window
                 "ShellCmd": container["ShellCmd"],
                 "InitCmd": container["InitCmd"],
                 "DeleteCmd": container["DeleteCmd"],

@@ -42,7 +42,7 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_csp">
                     <property name="name">platforms</property>
-                    <property name="title" translatable="yes">Cyber Security Platforms</property>
+                    <property name="title" translatable="yes">Cyber Platform Center</property>
                     <property name="icon-name">preferences-desktop-remote-desktop-symbolic</property>
                     <property name="child">
                       <object class="GtkBox">
@@ -64,7 +64,7 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_ach">
                     <property name="name">labs</property>
-                    <property name="title" translatable="yes">Vulnerable Labs</property>
+                    <property name="title" translatable="yes">Vulnerability Lab</property>
                     <property name="icon-name">utilities-terminal-symbolic</property>
                     <property name="child">
                       <object class="GtkBox">
@@ -74,17 +74,17 @@
                           <object class="AdwPreferencesPage">
                             <child>
                               <object class="AdwPreferencesGroup" id="group_cve_containers">
-                                <property name="title" translatable="yes">CVE Labs</property>
+                                <property name="title" translatable="yes">Common Vulnerabilities and Exposures (CVE)</property>
                               </object>
                             </child>
                             <child>
                               <object class="AdwPreferencesGroup" id="group_owasp_containers">
-                                <property name="title" translatable="yes">OWASP Labs</property>
+                                <property name="title" translatable="yes">Open Web Application Security Project (OWASP)</property>
                               </object>
                             </child>
                             <child>
                               <object class="AdwPreferencesGroup" id="group_additional_containers">
-                                <property name="title" translatable="yes">Additional Labs</property>
+                                <property name="title" translatable="yes">Miscellaneous</property>
                               </object>
                             </child>
                           </object>
@@ -96,7 +96,7 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_cl">
                     <property name="name">custom</property>
-                    <property name="title" translatable="yes">Cyber Labs</property>
+                    <property name="title" translatable="yes">Cyber Lab</property>
                     <property name="icon-name">applications-system-symbolic</property>
                     <property name="child">
                       <object class="GtkBox">
@@ -106,7 +106,8 @@
                           <object class="AdwPreferencesPage">
                             <child>
                               <object class="AdwPreferencesGroup" id="group_custom_containers">
-                                <property name="title" translatable="yes">Your Labs</property>
+                                <property name="title" translatable="yes">Your Hub</property>
+                                <property name="description">Add your containers by editing '~/.config/athena-cyber-hub/cyberlab.toml' configuration file, they will be shown here.</property>
                               </object>
                             </child>
                           </object>
