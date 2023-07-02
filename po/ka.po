@@ -1,97 +1,99 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the athena-cyber-hub package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: athena-cyber-hub\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ab\n"
+"PO-Revision-Date: 2023-04-14 06:57+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.athenaos.CyberHub.desktop.in:3
 #: athena_cyber_hub/gtk/window.ui:8
 #: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
 msgid "Athena OS Cyber Hub"
-msgstr ""
+msgstr "Athena OS კონტროლის ცენტრი"
 
 #: data/org.athenaos.CyberHub.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "აღწერის გარეშე"
 
 #: athena_cyber_hub/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "გარსზე გადასვლა"
 
 #: athena_cyber_hub/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "ქვესისტემის შექმნა"
 
 #: athena_cyber_hub/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "დაყენება"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "ზოგადი"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "მალსახმობების ჩვენება"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "გასვლა"
 
 #: athena_cyber_hub/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "ცვლილებების გადატარება"
 
 #: athena_cyber_hub/gtk/window.ui:45
 msgid "Updates"
-msgstr ""
+msgstr "განახლებები"
 
 #: athena_cyber_hub/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "მორგება"
 
 #: athena_cyber_hub/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "ბოლო განახლებების შემოწმება"
 
 #: athena_cyber_hub/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "არასდროს"
 
 #: athena_cyber_hub/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "განახლებების განრიგი"
 
 #: athena_cyber_hub/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "აირჩიეთ, რამდენად ხშირად უნდა შეამოწმოს სისტემამ განახლებები."
 
 #: athena_cyber_hub/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "კვირაში ერთხელ"
 
 #: athena_cyber_hub/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "თვეში ერთხელ"
 
 #: athena_cyber_hub/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr ""
+msgstr "ჭკვიანი განახლებები"
 
 #: athena_cyber_hub/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
@@ -99,7 +101,7 @@ msgstr ""
 
 #: athena_cyber_hub/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr ""
+msgstr "ავტომატური განახლებები"
 
 #: athena_cyber_hub/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -108,23 +110,23 @@ msgstr ""
 #: athena_cyber_hub/gtk/window.ui:105
 #: athena_cyber_hub/backends/apc.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "ქვესისტემა"
 
 #: athena_cyber_hub/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "კონტეინერები"
 
 #: athena_cyber_hub/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "დაყენებული აპლიკაციები"
 
 #: athena_cyber_hub/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "_დახმარება"
 
 #: athena_cyber_hub/gtk/window.ui:143
 msgid "_About Cyber Hub"
-msgstr ""
+msgstr "_კონტროლის ცენტრის შესახებ"
 
 #: athena_cyber_hub/backends/apc.py:36
 #: athena_cyber_hub/backends/apc.py:40
@@ -133,7 +135,7 @@ msgstr ""
 #: athena_cyber_hub/backends/apc.py:52
 #: athena_cyber_hub/backends/apc.py:56
 msgid "Flag"
-msgstr ""
+msgstr "ალამი"
 
 #: athena_cyber_hub/backends/apc.py:37
 #: athena_cyber_hub/backends/apc.py:41
@@ -142,66 +144,66 @@ msgstr ""
 #: athena_cyber_hub/backends/apc.py:53
 #: athena_cyber_hub/backends/apc.py:57
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
 #: athena_cyber_hub/backends/apc.py:41
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Arch Linux-ის ქვესისტემა"
 
 #: athena_cyber_hub/backends/apc.py:45
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Fedora -ის ქვესისტემა"
 
 #: athena_cyber_hub/backends/apc.py:49
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Alpine -ის ქვესისტემა"
 
 #: athena_cyber_hub/backends/apc.py:53
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "openSUSE -ის ქვესისტემა"
 
 #: athena_cyber_hub/backends/apc.py:57
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Void Linux -ის ქვესისტემა"
 
 #: athena_cyber_hub/backends/apc.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx მოდული გამორთულია"
 
 #: athena_cyber_hub/backends/apc.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx გამშვები ფაილი ვერ ვიპოვე"
 
 #: athena_cyber_hub/backends/apc.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox -ის გამშვები ფაილი ვერ ვიპოვე"
 
 #: athena_cyber_hub/backends/apc.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "კონტეინერების მიღების შეცდომა"
 
 #: athena_cyber_hub/backends/apc.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "კონტეინერი '{0}' ვერ მოიძებნა"
 
 #: athena_cyber_hub/backends/apc.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "ვუშვებ აპლიკაციას: '{0}'"
 
 #: athena_cyber_hub/backends/apc.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "მართული აპლიკაციის დაწყება შეუძლებელია: '{0}'"
 
 #: athena_cyber_hub/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "მხარდაუჭერელი პარამეტრები"
 
 #: athena_cyber_hub/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO Config ფაილი ვერ მოიძებნა მისამართზე {}"
 
 #: athena_cyber_hub/container.py:52
 msgid "Shell opened for container '{}'"
@@ -209,27 +211,27 @@ msgstr ""
 
 #: athena_cyber_hub/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "კონტეინერი '{}' ინიციალიზებულია"
 
 #: athena_cyber_hub/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "კოდის ავტორი"
 
 #: athena_cyber_hub/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "დოკუმენტაციის ავტორი"
 
 #: athena_cyber_hub/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "შემომწირავები"
 
 #: athena_cyber_hub/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "მთარგმნელები"
 
 #: athena_cyber_hub/window.py:96
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "ჭკვიანი განახლება შეიცვალა."
 
 #: athena_cyber_hub/window.py:98
 msgid "Failed to change the Smart Update setting."
@@ -237,24 +239,24 @@ msgstr ""
 
 #: athena_cyber_hub/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "ავტომატური განახლების პარამეტრი შეიცვალა."
 
 #: athena_cyber_hub/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "ავტომატური განახლების პარამეტრის შეცვლა ვერ მოხერხდა"
 
 #: athena_cyber_hub/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "განახლების განრიგი შეიცვალა."
 
 #: athena_cyber_hub/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} შეცდომით დასრულდა."
 
 #: athena_cyber_hub/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} დასრულდა."
 
 #: athena_cyber_hub/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "{} გაეშვა."

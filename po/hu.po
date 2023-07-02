@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Tamás Ecsedi <ecseditamas22@gmail.com>, 2023.
+# Benjamin Kőhidi <benstone326@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
+"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Athena OS Vezérlőpult"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Nincs leírás"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Shell megnyitása"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Alrendszer létrehozása"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Telepítés"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Általános"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Gyorsbillentyűk megjelenítése"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Kilépés"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Módosítások elfogadása"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Frissítések"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Legutóbbi frissítés keresés"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Soha"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Frissítések ütemezése"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Válassza ki, hogy milyen gyakran szeretne frissítéseket keresni."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Hetente"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Havonta"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Intelligens frissítések"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"A rendszer nem frissít, ha a készülék intenzív használatban van, vagy "
+"alacsony az akkumulátor töltöttsége."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Automatikus frissítések"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "A rendszer automatikusan frissít a háttérben."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Alrendszer"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Konténerek"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Telepített alkalmazások"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Segítség"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_A Vezérlőpultról"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Zászló"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Név"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Arch Linux alrendszer"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Fedora alrendszer"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Alpine alrendszer"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE alrendszer"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Void Linux alrendszer"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Apx modul letiltva"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Apx bináris nem található"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Distrobox bináris nem található"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "A konténerek nem érhetők el"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "'{0}' konténer nem található"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Futó alkalmazás: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Nem sikerült elindítani a kezelt alkalmazást: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Nem támogatott konfiguráció"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "VSO Config fájl nem található itt {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Shell megnyitva a(z) '{}' konténerhez"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "'{}' konténer elindítva"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Kódot készítette"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Dokumentációt készítette"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Közreműködők"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Fordítók"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Az Intelligens frissítés módosult."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Az Intelligens frissítés beállításának módosítása sikertelen."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Az Automatikus frissítés beállítása módosult."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Az Automatikus frissítés beállításának módosítása sikertelen"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "A frissítés ütemezése módosult."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} Hibával kilépett."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} Kilépett."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} Elindult."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Telepítés folyamatban…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Ez eltarthat egy ideig."
+
+#~ msgid "Drivers"
+#~ msgstr "Illesztőprogramok"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Illesztőprogramok betöltése…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr ""
+#~ "Kérjük, várjon, amíg a rendelkezésre álló illesztőprogramok betöltődnek."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Nincsenek elérhető illesztőprogramok"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nincs további elérhető illesztőprogram a rendszeréhez."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME profilok"
+
+#~ msgid "Active Profile"
+#~ msgstr "Aktív profil"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Integrált GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Nem észlelt"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Diszkrét GPU"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hibrid"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Használja az integrált GPU-t mindenhez, a diszkrét GPU-t pedig igény "
+#~ "szerint"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "LETILTOTT_MODULOK"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME modul letiltva"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select nem található"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select nem támogatott ezen az eszközön"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select nem támogatott ebben a konfigurációban"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Érvénytelen profilnév"
+
+#~ msgid "integrated"
+#~ msgstr "integrált"
+
+#~ msgid "discrete"
+#~ msgstr "diszkrét"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Eszközök listájának lekérdezése"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Eszközök listája: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "%s illesztőprogram telepítve: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Telepítési parancs: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Összekapcsolva"
+
+#~ msgid "Activated"
+#~ msgstr "Aktiválva"
+
+#~ msgid "Driver selected"
+#~ msgstr "Kiválasztott illesztőprogram"
+
+#~ msgid "Installed"
+#~ msgstr "Telepítve"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Kiválasztott illesztőprogram: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Telepítés szükséges"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Telepítési kérelmek: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Sikertelen telepítés."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Új illesztőprogramok telepítve."
+
+#~ msgid "Installation finished."
+#~ msgstr "A telepítés befejeződött."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Egy másik tranzakció fut, vagy a rendszer újraindítása szükséges."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "A PRIME profil módosult."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "A PRIME profil módosítása sikertelen."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "PRIME profil módosítása…"
+
+#~ msgid "Close"
+#~ msgstr "Bezárás"
+
+#~ msgid "Restart Now"
+#~ msgstr "Újraindítás most"
+
+#~ msgid "Restart Later"
+#~ msgstr "Újraindítás később"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "Ez eltarthat egy ideig, az internetkapcsolat sebességétől függően."
+
+#~ msgid "Immutability"
+#~ msgstr "Felülírhatatlanság"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Felülírhatatlanság állapota (jelenlegi munkamenet)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "A felülírhatatlanság jelenleg olvasási és írási módban van."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Visszaállítás újraindításkor"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Válassza ki, hogy a rendszer újraindítása után visszaálljon-e az "
+#~ "alapértelmezett mód."
+
+#~ msgid "Default Mode"
+#~ msgstr "Alapértelmezett mód"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Válassza ki, hogy melyik módot használja alapértelmezetten."
+
+#~ msgid "Read Only"
+#~ msgstr "Csak olvasás"
+
+#~ msgid "Read and Write"
+#~ msgstr "Olvasás és írás"
+
+#~ msgid "Overlays"
+#~ msgstr "Átfedések"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Fejlesztés alatt."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Nem található illesztőprogram."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Nem találhatók illesztőprogramok az eszközeihez, vagy hiba történt."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Nem sikerült beállítani a felülírhatatlanság állapotát."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Felülírhatatlanság engedélyezve."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Felülírhatatlanság letiltva."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Állandó mód engedélyezve."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Állandó mód letiltva."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Nem sikerült beállítani az alapértelmezett módot."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Az alapértelmezett mód módosult a következőre: {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Csak olvasás"
+
+#~ msgid "Read-Write"
+#~ msgstr "Olvasás-írás"

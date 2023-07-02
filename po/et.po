@@ -1,20 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Estonian translations for athena-cyber-hub package.
+# Copyright (C) 2022 THE athena-cyber-hub'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the athena-cyber-hub package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Automatically generated, 2022.
 #
+# dogyx <aaronloit@zohomail.eu>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: athena-cyber-hub\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ab\n"
+"PO-Revision-Date: 2023-03-24 18:24+0000\n"
+"Last-Translator: dogyx <aaronloit@zohomail.eu>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/et/>\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.athenaos.CyberHub.desktop.in:3
 #: athena_cyber_hub/gtk/window.ui:8
@@ -24,7 +28,7 @@ msgstr ""
 
 #: data/org.athenaos.CyberHub.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Kirjeldus puudub"
 
 #: athena_cyber_hub/gtk/container.ui:8
 msgid "Enter shell"
@@ -36,12 +40,12 @@ msgstr ""
 
 #: athena_cyber_hub/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Paigaldus"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Üldine"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -51,7 +55,7 @@ msgstr ""
 #: athena_cyber_hub/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Välju"
 
 #: athena_cyber_hub/gtk/window.ui:28
 msgid "Apply Changes"
@@ -142,7 +146,7 @@ msgstr ""
 #: athena_cyber_hub/backends/apc.py:53
 #: athena_cyber_hub/backends/apc.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: athena_cyber_hub/backends/apc.py:41
 msgid "Arch Linux Sub System"
@@ -258,3 +262,28 @@ msgstr ""
 #: athena_cyber_hub/window.py:146
 msgid "{} Launched."
 msgstr ""
+
+#~ msgid "Drivers"
+#~ msgstr "Draiverid"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Laen draiverid…"
+
+#, fuzzy
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Palun oota kuni saadavalolevad draiverid on laetud."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Draiverid pole saadaval"
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME profiilid"
+
+#~ msgid "Active Profile"
+#~ msgstr "Hetkene Profiil"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Integreeritud GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Ei tuvastatud"

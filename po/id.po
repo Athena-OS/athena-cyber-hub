@@ -8,23 +8,26 @@ msgstr ""
 "Project-Id-Version: athena-cyber-hub\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ab\n"
+"PO-Revision-Date: 2023-02-03 14:34+0000\n"
+"Last-Translator: Arif Ardiansyah <arifard49@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.athenaos.CyberHub.desktop.in:3
 #: athena_cyber_hub/gtk/window.ui:8
 #: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
 msgid "Athena OS Cyber Hub"
-msgstr ""
+msgstr "Pusat Kontrol Athena OS"
 
 #: data/org.athenaos.CyberHub.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Tidak ada deskripsi"
 
 #: athena_cyber_hub/gtk/container.ui:8
 msgid "Enter shell"
@@ -36,70 +39,77 @@ msgstr ""
 
 #: athena_cyber_hub/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Instalasi"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umum"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Tampilkan Pintasan"
 
 #: athena_cyber_hub/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Berhenti"
 
 #: athena_cyber_hub/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "Terapkan perubahan"
 
 #: athena_cyber_hub/gtk/window.ui:45
+#, fuzzy
 msgid "Updates"
-msgstr ""
+msgstr "Perbarui"
 
 #: athena_cyber_hub/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "Pilihan"
 
 #: athena_cyber_hub/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Cek Pembaruan Terbaru"
 
 #: athena_cyber_hub/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Tidak Pernah"
 
 #: athena_cyber_hub/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Penjadwalan Pembaruan"
 
 #: athena_cyber_hub/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Pilih seberapa sering sistem harus memeriksa pembaruan."
 
 #: athena_cyber_hub/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "Per minggu"
 
 #: athena_cyber_hub/gtk/window.ui:66
+#, fuzzy
 msgid "Monthly"
-msgstr ""
+msgstr "Bulanan"
 
 #: athena_cyber_hub/gtk/window.ui:74
+#, fuzzy
 msgid "Smart Updates"
-msgstr ""
+msgstr "PembaruanPintar"
 
 #: athena_cyber_hub/gtk/window.ui:75
+#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Jika diaktifkan, sistem tidak akan diperbarui jika sistem dalam beban tinggi "
+"atau baterai lemah."
 
 #: athena_cyber_hub/gtk/window.ui:86
+#, fuzzy
 msgid "Automatic Updates"
-msgstr ""
+msgstr "PembaruanPintar Diubah."
 
 #: athena_cyber_hub/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -108,23 +118,25 @@ msgstr ""
 #: athena_cyber_hub/gtk/window.ui:105
 #: athena_cyber_hub/backends/apc.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/gtk/window.ui:115
+#, fuzzy
 msgid "Containers"
-msgstr ""
+msgstr "Kontainer"
 
 #: athena_cyber_hub/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "Aplikasi yang Terinstal"
 
 #: athena_cyber_hub/gtk/window.ui:139
 msgid "_Help"
 msgstr ""
 
 #: athena_cyber_hub/gtk/window.ui:143
+#, fuzzy
 msgid "_About Cyber Hub"
-msgstr ""
+msgstr "_Tentang Panel-Kontrol"
 
 #: athena_cyber_hub/backends/apc.py:36
 #: athena_cyber_hub/backends/apc.py:40
@@ -145,24 +157,29 @@ msgid "Name"
 msgstr ""
 
 #: athena_cyber_hub/backends/apc.py:41
+#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/backends/apc.py:45
+#, fuzzy
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/backends/apc.py:49
+#, fuzzy
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/backends/apc.py:53
+#, fuzzy
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/backends/apc.py:57
+#, fuzzy
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Subsistem"
 
 #: athena_cyber_hub/backends/apc.py:70
 msgid "Apx module disabled"
@@ -220,24 +237,27 @@ msgid "Documentation by"
 msgstr ""
 
 #: athena_cyber_hub/main.py:118
+#, fuzzy
 msgid "Contributors"
-msgstr ""
+msgstr "Kontainer"
 
 #: athena_cyber_hub/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "Penerjemah"
 
 #: athena_cyber_hub/window.py:96
+#, fuzzy
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "PembaruanPintar Diubah."
 
 #: athena_cyber_hub/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr ""
 
 #: athena_cyber_hub/window.py:103
+#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "PembaruanPintar Diubah."
 
 #: athena_cyber_hub/window.py:105
 msgid "Failed to change Automatic Update setting"
@@ -245,16 +265,142 @@ msgstr ""
 
 #: athena_cyber_hub/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Jadwal Pemutakhiran Dirubah."
 
 #: athena_cyber_hub/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Keluar Dengan Kesalahan."
 
 #: athena_cyber_hub/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Keluar."
 
 #: athena_cyber_hub/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Diluncurkan."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Instalasi sedang berlangsung…"
+
+#~ msgid "Drivers"
+#~ msgstr "Driver"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Memuat driver…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Harap tunggu sementara driver yang tersedia sedang dimuat."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Pengendali Piranti Tidak Tersedia"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Tidak ada tambahan pengendali piranti yang tersedia di sistem anda."
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Driver Baru Terpasang."
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Driver"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Instalasi"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Instalasi"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalasi Gagal"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Instalasi Gagal"
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Driver Baru Terpasang."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Instalasi Gagal"
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Ini mungkin memakan waktu cukup lama, berdasarkan kecepatan koneksi "
+#~ "internet Anda."
+
+#~ msgid "Immutability"
+#~ msgstr "Kekekalan"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Status Kekekalan (sesi saat ini)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Kekekalan saat ini dalam mode Baca dan Tulis."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Pulihkan saat Reboot"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Pilih apakah akan mengembalikan mode default setelah sistem di-boot ulang."
+
+#~ msgid "Default Mode"
+#~ msgstr "Modus bawaan"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Pilih mode mana yang akan digunakan secara default."
+
+#~ msgid "Read Only"
+#~ msgstr "Hanya Baca"
+
+#~ msgid "Read and Write"
+#~ msgstr "Baca dan Tulis"
+
+#~ msgid "Overlays"
+#~ msgstr "Overlay"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Belum diimplementasikan."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Tidak Ada Driver yang Ditemukan."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Tidak ada driver yang ditemukan untuk perangkat Anda atau terjadi "
+#~ "kesalahan."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Gagal Menyetel Status Kekekalan."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Kekekalan Diaktifkan."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Kekekalan Dinonaktifkan."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Mode Persisten Diaktifkan."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Mode Persisten Dinonaktifkan."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Gagal Menyetel Mode bawaan."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Mode Bawaan Diubah ke {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Hanya-Baca"
+
+#~ msgid "Read-Write"
+#~ msgstr "Baca-Tulis"

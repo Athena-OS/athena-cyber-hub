@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the athena-cyber-hub package.
+# Andrew Geo <andrewgeo@outlook.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: athena-cyber-hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
+"PO-Revision-Date: 2023-03-24 18:24+0000\n"
+"Last-Translator: Andrew Geo <andrewgeo@outlook.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
+
+#: data/org.athenaos.CyberHub.desktop.in:3
+#: athena_cyber_hub/gtk/window.ui:8
+#: athena_cyber_hub/gtk/window.ui:17 athena_cyber_hub/main.py:96
+msgid "Athena OS Cyber Hub"
+msgstr "Κέντρο ελέγχου Athena OS"
+
+#: data/org.athenaos.CyberHub.appdata.xml.in:7
+msgid "No description"
+msgstr "Χωρίς περιγραφή"
+
+#: athena_cyber_hub/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "Είσοδος στο κέλυφος"
+
+#: athena_cyber_hub/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "Δημιουργία υποσυστήματος"
+
+#: athena_cyber_hub/gtk/dialog-installation.ui:6
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Γενικά"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Προβολή Συντομεύσεων"
+
+#: athena_cyber_hub/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: athena_cyber_hub/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Εφαρμογή αλλαγών"
+
+#: athena_cyber_hub/gtk/window.ui:45
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+#: athena_cyber_hub/gtk/window.ui:51
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: athena_cyber_hub/gtk/window.ui:54
+msgid "Latest Update Check"
+msgstr "Τελευταίος έλεγχος ενημερώσεων"
+
+#: athena_cyber_hub/gtk/window.ui:55
+msgid "Never"
+msgstr "Ποτέ"
+
+#: athena_cyber_hub/gtk/window.ui:60
+msgid "Updates Scheduling"
+msgstr "Προγραμματισμός ενημερώσεων"
+
+#: athena_cyber_hub/gtk/window.ui:61
+msgid "Choose how often the system should check for updates."
+msgstr "Επιλέξτε πόσο συχνά το σύστημά σας θα αναζητεί ενημερώσεις."
+
+#: athena_cyber_hub/gtk/window.ui:65
+msgid "Weekly"
+msgstr "Εβδομαδιαία"
+
+#: athena_cyber_hub/gtk/window.ui:66
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: athena_cyber_hub/gtk/window.ui:74
+msgid "Smart Updates"
+msgstr "Έξυπνες Ενημερώσεις"
+
+#: athena_cyber_hub/gtk/window.ui:75
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"Το σύστημα δεν θα ενημερωθεί σε συνθήκες έντονης χρήσης ή χαμηλής μπαταρίας."
+
+#: athena_cyber_hub/gtk/window.ui:86
+msgid "Automatic Updates"
+msgstr "Αυτόματες Ενημερώσεις"
+
+#: athena_cyber_hub/gtk/window.ui:87
+msgid "The system will automatically update itself in the background."
+msgstr "Το σύστημα θα ενημερώνεται αυτόματα στο υπόβαθρο."
+
+#: athena_cyber_hub/gtk/window.ui:105
+#: athena_cyber_hub/backends/apc.py:37
+msgid "Sub System"
+msgstr "Υποσύστημα"
+
+#: athena_cyber_hub/gtk/window.ui:115
+msgid "Containers"
+msgstr "Περιέκτες"
+
+#: athena_cyber_hub/gtk/window.ui:120
+msgid "Installed Applications"
+msgstr "Εγκατεστημένες Εφαρμογές"
+
+#: athena_cyber_hub/gtk/window.ui:139
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: athena_cyber_hub/gtk/window.ui:143
+msgid "_About Cyber Hub"
+msgstr "_Σχετικά με το Κέντρο Ελέγχου"
+
+#: athena_cyber_hub/backends/apc.py:36
+#: athena_cyber_hub/backends/apc.py:40
+#: athena_cyber_hub/backends/apc.py:44
+#: athena_cyber_hub/backends/apc.py:48
+#: athena_cyber_hub/backends/apc.py:52
+#: athena_cyber_hub/backends/apc.py:56
+msgid "Flag"
+msgstr "Επισήμανση"
+
+#: athena_cyber_hub/backends/apc.py:37
+#: athena_cyber_hub/backends/apc.py:41
+#: athena_cyber_hub/backends/apc.py:45
+#: athena_cyber_hub/backends/apc.py:49
+#: athena_cyber_hub/backends/apc.py:53
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Name"
+msgstr "Όνομα"
+
+#: athena_cyber_hub/backends/apc.py:41
+msgid "Arch Linux Sub System"
+msgstr "Υποσύστημα του Arch Linux"
+
+#: athena_cyber_hub/backends/apc.py:45
+msgid "Fedora Sub System"
+msgstr "Υποσύστημα του Fedora"
+
+#: athena_cyber_hub/backends/apc.py:49
+msgid "Alpine Sub System"
+msgstr "Υποσύστημα του Alpine"
+
+#: athena_cyber_hub/backends/apc.py:53
+msgid "openSUSE Sub System"
+msgstr "Υποσύστημα του openSUSE"
+
+#: athena_cyber_hub/backends/apc.py:57
+msgid "Void Linux Sub System"
+msgstr "Υποσύστημα του Void Linux"
+
+#: athena_cyber_hub/backends/apc.py:70
+msgid "Apx module disabled"
+msgstr "Το δομοστοιχείο apc έχει απενεργοποιηθεί"
+
+#: athena_cyber_hub/backends/apc.py:74
+msgid "Apx binary not found"
+msgstr "Δεν βρέθηκε δυαδικό αρχείο του apc"
+
+#: athena_cyber_hub/backends/apc.py:78
+msgid "Distrobox binary not found"
+msgstr "Δεν βρέθηκε δυαδικό αρχείο του Distrobox"
+
+#: athena_cyber_hub/backends/apc.py:143
+msgid "Unable to get containers"
+msgstr "Αδυναμία εύρεσης περιέκτη"
+
+#: athena_cyber_hub/backends/apc.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Ο περιέκτης '{0}' δεν βρέθηκε"
+
+#: athena_cyber_hub/backends/apc.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "Εκτελούμενη εφαρμογή: '{0}'"
+
+#: athena_cyber_hub/backends/apc.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "Αδυναμία εκκίνησης της διαχειριζόμενης εφαρμογής: '{0}'"
+
+#: athena_cyber_hub/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "Μη υποστηριζόμενες ρυθμίσεις"
+
+#: athena_cyber_hub/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "Το αρχείο τροποποίησης του VSO δεν βρέθηκε στο {}"
+
+#: athena_cyber_hub/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr "Το κέλυφος άνοιξε για τον περιέκτη '{}'"
+
+#: athena_cyber_hub/container.py:59
+msgid "Container '{}' initialized"
+msgstr "Ο περιέκτης '{}' αρχικοποιήθηκε"
+
+#: athena_cyber_hub/main.py:105
+msgid "Code by"
+msgstr "Κώδικας από"
+
+#: athena_cyber_hub/main.py:111
+msgid "Documentation by"
+msgstr "Έγγραφα τεκμηρίωσης από"
+
+#: athena_cyber_hub/main.py:118
+msgid "Contributors"
+msgstr "Συντελεστές"
+
+#: athena_cyber_hub/main.py:126
+msgid "Translators"
+msgstr "Μεταφραστές"
+
+#: athena_cyber_hub/window.py:96
+msgid "Smart Update Changed."
+msgstr "Η Έξυπνη Ένημέρωση τροποποιήθηκε."
+
+#: athena_cyber_hub/window.py:98
+msgid "Failed to change the Smart Update setting."
+msgstr "Αποτυχία αλλαγής της ρύθμισης Έξυπνων Ενημερώσεων."
+
+#: athena_cyber_hub/window.py:103
+msgid "Automatic Update setting changed."
+msgstr "Η ρύθμιση Αυτόματης Ενημέρωσης τροποποιήθηκε."
+
+#: athena_cyber_hub/window.py:105
+msgid "Failed to change Automatic Update setting"
+msgstr "Αποτυχία αλλαγής της ρύθμισης Αυτόματων Ενημερώσεων"
+
+#: athena_cyber_hub/window.py:112
+msgid "Update Schedule Changed."
+msgstr "Το Χρονοπρόγραμμα Ενημερώσεων τροποποιήθηκε."
+
+#: athena_cyber_hub/window.py:140
+msgid "{} Exited With Error."
+msgstr "{} έκλεισε με σφάλμα."
+
+#: athena_cyber_hub/window.py:143
+msgid "{} Exited."
+msgstr "{} έκλεισε."
+
+#: athena_cyber_hub/window.py:146
+msgid "{} Launched."
+msgstr "{} εκτελέστηκε."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Εγκατάσταση σε εξέλιξη…"
+
+#~ msgid "Drivers"
+#~ msgstr "Προγράμματα οδήγησης"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Φόρτωση προγραμμάτων οδήγησης…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr ""
+#~ "Παρακαλώ περιμένετε ώσπου να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Δεν υπάρχουν διαθέσιμα προγράμματα οδήγησης"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr ""
+#~ "Δεν υπάρχουν διαθέσιμα πρόσθετα προγράμματα οδήγησης για το σύστημά σας."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "Προφίλ PRIME"
+
+#~ msgid "Active Profile"
+#~ msgstr "Ενεργό προφίλ"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Ενσωματωμένη GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Δεν εντοπίστηκε"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Ανεξάρτητη GPU"
+
+#~ msgid "Hybrid"
+#~ msgstr "Υβριδικό"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Χρήση της ενσωματωμένης GPU για τα πάντα, ενώ της ανεξάρτητης GPU κατά "
+#~ "παραγγελία"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΑ_ΔΟΜΟΣΤΟΙΧΕΙΑ"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Το πρόγραμμα οδήγησης %s εγκαταστάθηκε: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Εντολή εγκατάστασης: %s"
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Οδηγοί"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Εγκατάσταση"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Εγκατάσταση"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Η εγκατάσταση απέτυχε."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Η εγκατάσταση απέτυχε."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Η εγκατάσταση απέτυχε."
+
+#, fuzzy
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Εγκατάσταση σε εξέλιξη…"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
+#~ "Διαδίκτυο."
+
+#~ msgid "Immutability"
+#~ msgstr "Immutability"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Κατάσταση αμετάβλητου (τρέχουσα συνεδρία)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Η αμεταβλητότητα βρίσκεται σε λειτουργία εγγραφής και ανάγνωσης."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Επαναφορά κατά την επανεκκίνηση"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Επιλέξτε εάν θα επαναφέρετε την προεπιλεγμένη λειτουργία μετά από "
+#~ "επανεκκίνηση του συστήματος."
+
+#~ msgid "Default Mode"
+#~ msgstr "Προεπιλεγμένη λειτουργία"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Επιλέξτε ποια λειτουργία θα χρησιμοποιηθεί ως προεπιλεγμένη."
+
+#~ msgid "Read Only"
+#~ msgstr "Μόνο ανάγνωση"
+
+#~ msgid "Read and Write"
+#~ msgstr "Ανάγνωση και εγγραφή"
+
+#~ msgid "Overlays"
+#~ msgstr "Επικαλύψεις"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Δεν έχει εφαρμοστεί ακόμα."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Δεν βρέθηκαν προγράμματα οδήγησης."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Δεν βρέθηκαν προγράμματα οδήγησης για τις συσκευές σας ή παρουσιάστηκε "
+#~ "σφάλμα."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Ο ορισμός της αμεταβλητότητας απέτυχε."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Η αμεταβλητότητα ενεργοποιήθηκε."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Η αμεταβλητότητα απενεργοποιήθηκε."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Ενεργοποιήθηκε η μόνιμη λειτουργία."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Ο ορισμός της προεπιλεγμένης λειτουργίας απέτυχε."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Η προεπιλεγμένη λειτουργία άλλαξε σε {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Ανάγνωση-Μόνο"
+
+#~ msgid "Read-Write"
+#~ msgstr "Ανάγνωση-Εγγραφή"
