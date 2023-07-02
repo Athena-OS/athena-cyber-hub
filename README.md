@@ -39,6 +39,12 @@ path_docker = "/path/to/docker-compose.yml"
 path_readme = "/path/to/README.md"
 ```
 
+## Installation
+Athena IS Cyber Hub can be installed through [Athena Repository](https://athena-os.github.io/athena-repository/) by:
+```
+sudo pacman -S athena-cyber-hub
+```
+
 ## Build from source
 ### Dependencies
 - base-devel
