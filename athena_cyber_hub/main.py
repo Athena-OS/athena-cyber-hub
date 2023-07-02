@@ -235,5 +235,5 @@ class AthenaCyberHubApplication(Adw.Application):
 
 def main(version):
     """The application's entry point."""
-    app = AthenaPlatformCenterApplication()
+    app = AthenaCyberHubApplication()
     return app.run(sys.argv)
