@@ -204,6 +204,13 @@ class Ach:
             _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/platforms/greenbone/docker-compose.yml -p greenbone-community-edition down -v",
             _("ReadCmd"): f"xdg-open https://greenbone.github.io/docs/latest",
         }
+        "wazuh": {
+            _("Name"): _("Wazuh"),
+            _("ShellCmd"): f"kgx -e \"sudo sysctl -w vm.max_map_count=262144; sudo docker-compose -f generate-indexer-certs.yml run --rm generator; sudo docker compose -f /usr/share/athena-cyber-hub/platforms/wazuh/docker-compose.yml up\"",
+            _("InitCmd"): f"kgx -e \"sudo sysctl -w vm.max_map_count=262144; sudo docker-compose -f generate-indexer-certs.yml run --rm generator; sudo docker compose -f /usr/share/athena-cyber-hub/platforms/wazuh/docker-compose.yml up\"",
+            _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/platforms/wazuh/docker-compose.yml down -v",
+            _("ReadCmd"): f"xdg-open https://documentation.wazuh.com/current/index.html",
+        }
     }
 
 #######################################################
