@@ -3,6 +3,6 @@ Name=Athena OS Cyber Hub
 Exec=athena-cyber-hub
 Icon=org.athenaos.CyberHub
 Terminal=false
-Type=Application
+Type=Application;Utility
 Categories=GTK;
 StartupNotify=true
