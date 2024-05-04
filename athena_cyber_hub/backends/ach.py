@@ -261,7 +261,7 @@ class Ach:
             _container = {
                 "Name": container["Name"],
                 "Status": 1,
-                "Alias": (re.findall('cve-\d{4}-\d{4,7}',alias)[0]).replace('cve','CVE'), # It will show CVE as subtitle on the GTK window
+                "Alias": (re.findall('cve-\\d{4}-\\d{4,7}',alias)[0]).replace('cve','CVE'), # It will show CVE as subtitle on the GTK window
                 "ShellCmd": container["ShellCmd"],
                 "InitCmd": container["InitCmd"],
                 "DeleteCmd": container["DeleteCmd"],
