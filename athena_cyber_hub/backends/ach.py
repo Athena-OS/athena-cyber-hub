@@ -195,7 +195,14 @@ class Ach:
             _("ShellCmd"): f"kgx -e \"cd /usr/share/athena-cyber-hub/platforms/defectdojo; sudo /usr/share/athena-cyber-hub/platforms/defectdojo/dc-up.sh\"",
             _("InitCmd"): f"kgx -e \"cd /usr/share/athena-cyber-hub/platforms/defectdojo; sudo /usr/share/athena-cyber-hub/platforms/defectdojo/dc-up.sh\"",
             _("DeleteCmd"): f"kgx -e \"cd /usr/share/athena-cyber-hub/platforms/defectdojo; sudo /usr/share/athena-cyber-hub/platforms/defectdojo/dc-down.sh\"",
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/platforms/defectdojo/README.md",
+            _("ReadCmd"): f"xdg-open https://documentation.defectdojo.com/",
+        },
+        "caido":{
+            _("Name"): _("Caido"),
+            _("ShellCmd"): f"kgx -e \"sudo docker start caido; echo 'Caido running. Open your browser to 127.0.0.1:7000.'\"",
+            _("InitCmd"): f"kgx -e sudo docker run -p 7000:8080 --name caido caido/caido",
+            _("DeleteCmd"): f"kgx -e \"sudo docker stop caido; sudo docker rm caido; echo 'Removed. Close the window.'\"",
+            _("ReadCmd"): f"xdg-open https://docs.caido.io/guides/user_guide/docker.html",
         },
         "greenbone": {
             _("Name"): _("Greenbone OpenVAS"),
