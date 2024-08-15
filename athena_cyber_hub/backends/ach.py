@@ -76,7 +76,7 @@ class Ach:
                 _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
                 _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
                 _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
-                _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
+                _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
             }
         else:
             img_name = (subprocess.run(["grep", "-h", "-m", "1", "-oP", '(?<=image: ).*|(?<=FROM ).*', "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/docker-compose.yml", "/usr/share/athena-cyber-hub/vulhub/"+item['path']+"/Dockerfile"], capture_output=True, text=True)).stdout.replace(' ','').replace('\n','') # Getting only the first occurrence of "image:" because we need only the first one for checking if the container is running or not, also for cases where docker-compose.yml are more image names
@@ -91,7 +91,7 @@ class Ach:
                 _("ShellCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
                 _("InitCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml up",
                 _("DeleteCmd"): f"kgx -e sudo docker compose -f /usr/share/athena-cyber-hub/vulhub/{item['path']}/docker-compose.yml down -v",
-                _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
+                _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/vulhub/{item['path']}/README.md",
             }
         
 
@@ -107,56 +107,56 @@ class Ach:
             _("ShellCmd"): f"kgx -e \"sudo docker start juice-shop; echo 'Container already in your system. Visit localhost:3000 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name juice-shop -p 3000:3000 bkimminich/juice-shop",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=bkimminich/juice-shop --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/juice-shop/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/juice-shop/README.md",
         },
         "bwapp":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP bWAPP (Buggy Web Application)"),
             _("ShellCmd"): f"kgx -e \"sudo docker start bwapp; echo 'Container already in your system. Visit localhost:80 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name bwapp -p 80:80 raesene/bwapp",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=raesene/bwapp --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/bwapp/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/bwapp/README.md",
         },
         "dvga":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP DVGA (Damn Vulnerable GraphQL Application)"),
             _("ShellCmd"): f"kgx -e \"sudo docker start dvga; echo 'Container already in your system. Visit localhost:5013 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name dvga -t -p 5013:5013 -e WEB_HOST=0.0.0.0 dolevf/dvga",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=dolevf/dvga --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/dvga/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/dvga/README.md",
         },
         "dvna":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP DVNA (Damn Vulnerable NodeJS Application)"),
             _("ShellCmd"): f"kgx -e \"sudo docker start dvna; echo 'Container already in your system. Visit localhost:9090 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name dvna -p 9090:9090 appsecco/dvna:sqlite",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=appsecco/dvna --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/dvna/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/dvna/README.md",
         },
         #"dvjs":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
         #    _("Name"): _("OWASP DVJS (Damn Vulnerable Javascript SCA)"),
         #    _("ShellCmd"): f"kgx -e \"sudo docker start dvjs; echo 'Container already in your system. Visit localhost:3000 and localhost:3001 by the browser.'\"",
         #    _("InitCmd"): f"kgx -e sudo docker run --name dvjs -p 3000:3000 -p 3001:3001 -it ghcr.io/lunasec-io/damn-vulnerable-js-sca",
         #    _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=lunasec-io/damn-vulnerable-js-sca --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-        #    _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/dvjs/README.md",
+        #    _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/dvjs/README.md",
         #},
         "webgoat":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP WebGoat"),
             _("ShellCmd"): f"kgx -e \"sudo docker start webgoat; echo 'Container already in your system. Visit localhost:8080 for WebGoat and localhost:9090 for WebWolf by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=webgoat/webgoat --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/webgoat/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/webgoat/README.md",
         },
         "wrongsecrets":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP WrongSecrets"),
             _("ShellCmd"): f"kgx -e \"sudo docker start wrongsecrets; echo 'Container already in your system. Visit localhost:8080 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name wrongsecrets -p 8080:8080 jeroenwillemsen/wrongsecrets:latest-no-vault",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=jeroenwillemsen/wrongsecrets:latest-no-vault --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/wrongsecrets/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/wrongsecrets/README.md",
         },
         "xvwa":{ # This alias will be used for checking if the container has been pulled or not. Look __get_containers() and its alias variable
             _("Name"): _("OWASP XVWA (Xtreme Vulnerable Web Application)"),
             _("ShellCmd"): f"kgx -e \"sudo docker start xvwa; echo 'Container already in your system. Visit localhost:80 by the browser.'\"",
             _("InitCmd"): f"kgx -e sudo docker run --name xvwa -p 80:80 tuxotron/xvwa",
             _("DeleteCmd"): "kgx -e \"sudo docker rm $(sudo docker stop $(sudo docker ps -a --filter ancestor=tuxotron/xvwa --format={{.ID}})); echo 'Container removed from your system.'\"", # Don't use f" at the beginning otherwise {{.ID}} will be used as a Python variable
-            _("ReadCmd"): f"marktext /usr/share/athena-cyber-hub/owasp/xvwa/README.md",
+            _("ReadCmd"): f"xdg-open /usr/share/athena-cyber-hub/owasp/xvwa/README.md",
         }
     }
 
@@ -180,7 +180,7 @@ class Ach:
             _("ShellCmd"): f"kgx -e sudo docker compose -f {item['path_docker']} up",
             _("InitCmd"): f"kgx -e sudo docker compose -f {item['path_docker']} up",
             _("DeleteCmd"): f"kgx -e \"sudo docker compose -f {item['path_docker']} down -v; echo 'Container removed from your system.'\"",
-            _("ReadCmd"): f"marktext {item['path_readme']}",
+            _("ReadCmd"): f"xdg-open {item['path_readme']}",
         }
 
 #######################################################

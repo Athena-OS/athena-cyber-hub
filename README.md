@@ -60,7 +60,6 @@ sudo pacman -S athena-cyber-hub
 - docker
 - docker-compose
 - gnome-console
-- marktext
 
 ### Build
 ```bash
